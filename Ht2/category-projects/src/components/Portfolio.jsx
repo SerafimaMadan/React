@@ -16,10 +16,10 @@ export default class Portfolio extends Component {
             projects: "filteredProjects"
         };
     }
-
+//
     onSelectFilter(filter) {
-        let filteredProjects = this.state.selectedFilter.filter((item) => {
-            if (item.category === filter.category) {
+        let filteredProjects = this.state.selectedFilter.filter((projects) => {
+            if (projects.category === filter.category) {
                 return true;
             }
            else { return false}
@@ -45,6 +45,7 @@ export default class Portfolio extends Component {
                          console.log(filter);
                          }}
                 />
+
                <ProjectList projects={projects}/>}
 
             </div>

@@ -1,13 +1,11 @@
 {
-  "name": "film-rate",
+  "name": "chat3",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-key-index": "^0.1.1",
-    "react-scripts": "3.0.1",
-    "shortid": "^2.2.14"
+    "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
