@@ -1,30 +1,29 @@
-import React from 'react';
+import React  from 'react';
+import PropTypes from 'prop-types';
 
- const Toolbar = (props) => {
+const Toolbar = (props) => {
 
-    const { filters, selected, onSelectFilter } = props;
+    const {filters, selected, onSelectFilter} = props;
 
-    const renderFilters = (filters) => {
 
-        return filters.map((filter, i) => {
-            const className = filter === selected ? "filter-selected" : "filter";
+    return filters.map((filter) => {
 
-            return (
+        return (
+
+            <div className="toolbar" key={filter}>
                 <button
-                    className={className}
+                    className={filter === selected ? "filter-selected" : "filter"}
                     onClick={() => onSelectFilter(filter)}
-                    key={`filter-${i}`} >
-                    {filter}
+                    >{filter}
                 </button>
-            );
-        });
-    };
+            </div>
+        );
+    });
 
-    return (
-        <div className="toolbar">
-            {renderFilters(filters)}
-        </div>
-    );
+
+};
+Toolbar.propTypes = {
+    onSelectFilter: PropTypes.func.isRequired,
 };
 
 export default Toolbar;

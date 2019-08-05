@@ -1,25 +1,25 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 
-export default class ProjectList extends Component {
+const ProjectList = props => {
 
 
+    const {projects} = props;
+    return (
 
-    render() {
-        const {projects} = this.props;
-        return (
-            <div className="portfolio">
-                {projects.map((project) => {
-                    return (
-                        <div key={project.id}>
-                            <img
-                                src={project.imageType}
-                                alt={project.category}
-                            />
-                        </div>
-                    );
-                })}
-            </div>
-        );
-    }
-}
+        <div className="portfolio">
+            {projects.map((project, i) =>
+                <div key={i}>
+                    <img
+
+                         src={project.imageType}
+                        alt={project.category}
+                    />
+                </div>
+            )
+            }
+        </div>
+    );
+
+};
+export default ProjectList;

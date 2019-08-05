@@ -8,9 +8,9 @@ const ListView = props => {
     return (
 
         <ul className="list" >
-            {items.map(o => <li >
+            {items.map((o, i) => <li key={i}>
                 <div className="shop-item" >
-                <img className="thumb" src={o.img} alt={o.name}/>
+                    <img className="thumb" src={o.img} alt={o.name}/>
                     <div className="title">
                         {o.name}
                     </div>
