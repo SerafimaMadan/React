@@ -13,8 +13,8 @@ const Toolbar = (props) => {
             <div className="toolbar" key={filter}>
                 <button
                     className={filter === selected ? "filter-selected" : "filter"}
-                    onClick={() => onSelectFilter(filter)}
-                    >{filter}
+                    onClick={() => onSelectFilter(filter)}>
+                    {filter}
                 </button>
             </div>
         );

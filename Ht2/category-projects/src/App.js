@@ -59,15 +59,13 @@ const projects = [
     }
 ];
 
+const filters = ["All", "Websites", "Flayers", "Business Cards"];
 
 function App() {
-
-    return (
+   
+        return (
         <div className="App">
-
-
-            <Portfolio projects={projects}/>
-
+            <Portfolio projects={projects} filters={filters}/>
         </div>
     );
 }

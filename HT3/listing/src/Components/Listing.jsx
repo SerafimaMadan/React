@@ -5,6 +5,7 @@ export  default function Listing(props) {
 
    //пропишем условие для ограничения длинны предложения с помощью метода slice
     const itemList = props.items.map(item => {
+
         const title = item.title.length > 50 ? `${item.title.slice(0, 50)}...` : item.title;
 //пропишем условия для смена валюты при необходимости
         const getPrice = (price, code) => {
@@ -37,7 +38,7 @@ export  default function Listing(props) {
 
     return <div className='item-list'>{itemList}</div>
 }
-
+//условие по умолчанию
 Listing.defaultProps = {
     items: []
 };

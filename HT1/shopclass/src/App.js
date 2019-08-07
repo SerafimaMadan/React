@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './App.css';
 import ShopItemClass from './components/ShopItemClass';
 import Item from './models/Item';
@@ -14,6 +15,7 @@ function App() {
     price: 399,
     currency: '£'
   });
+
   return (
       <div className="App">
         <div className="container">

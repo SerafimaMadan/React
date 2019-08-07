@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 
-
 import ProjectList from "./ProjectList";
 import Toolbar from "./Toolbar";
-
 
 export default class Portfolio extends Component {
 
@@ -12,44 +10,32 @@ export default class Portfolio extends Component {
 
         this.state = {
             selectedFilter: "All",
-            filters: ["All", "Websites", "Flayers", "Business Cards"],
-            projects: "filteredProjects"
+            filterProjects: props.projects
         };
     }
-//
-    onSelectFilter(filter) {
-        let filteredProjects = this.state.selectedFilter.filter((projects) => {
-            if (projects.category === filter.category) {
-                return true;
-            }
-           else { return false}
-        });
+
+    onSelectFilter = (filter) => {
+        const {projects} = this.props;
+        const filterProjects = projects.filter(({category}) => category === filter);
         this.setState({
-            projects: filteredProjects
-        });
+            selectedFilter: filter, 
+            filterProjects
+        })
     };
 
     render() {
-
-
-        const {projects} = this.props;
-        const {selectedFilter, filters} = this.state;
+        const {filters} = this.props;
+        const {selectedFilter, filterProjects} = this.state;
 
         return (
             <div>
-
                 <Toolbar
                     filters={filters}
-                         selected={selectedFilter}
-                    onSelectFilter={(filter) => {
-                         console.log(filter);
-                         }}
+                    selected={selectedFilter}
+                    onSelectFilter={this.onSelectFilter}
                 />
-
-               <ProjectList projects={projects}/>}
-
+                <ProjectList projects={filterProjects}/>
             </div>
         );
-
     }
 }

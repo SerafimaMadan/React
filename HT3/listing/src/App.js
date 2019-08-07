@@ -3,7 +3,6 @@ import React from 'react';
 import './App.css';
 import Listing from "./Components/Listing";
 
-
 const items = [{
     "listing_id": 708099714,
     "state": "active",
