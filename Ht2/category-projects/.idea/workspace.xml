@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6116f0d6-583c-4503-9597-02cc7b60e1b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HT1/shopclass/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../HT1/shopclass/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HT3/chat3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HT3/chat3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HT3/chat3/src/Components/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../HT3/chat3/src/Components/Message.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HT3/chat3/src/Components/MessageHistory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../HT3/chat3/src/Components/MessageHistory.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HT3/chat3/src/Components/Response.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../HT3/chat3/src/Components/Response.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HT3/chat3/src/Components/Typing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../HT3/chat3/src/Components/Typing.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HT3/chat3/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../HT3/chat3/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HT3/listing/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../HT3/listing/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HT3/listing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../HT3/listing/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HT3/listing/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../HT3/listing/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HT3/listing/src/Components/Listing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../HT3/listing/src/Components/Listing.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Toolbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Toolbar.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="6116f0d6-583c-4503-9597-02cc7b60e1b6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,15 +169,16 @@
       <workItem from="1564999937310" duration="18816000" />
       <workItem from="1565110308668" duration="1447000" />
       <workItem from="1565166589427" duration="2064000" />
-      <workItem from="1565179683197" duration="4209000" />
+      <workItem from="1565179683197" duration="4724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37939000" />
+    <option name="totallyTimeSpent" value="38454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2457bbf-4c5b-4d43-a3fa-2a80fcd5f1ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT1/shopclass/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT1/shopclass/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT3/chat3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HT3/chat3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT3/chat3/src/Components/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT3/chat3/src/Components/Message.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT3/chat3/src/Components/MessageHistory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT3/chat3/src/Components/MessageHistory.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT3/chat3/src/Components/Response.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT3/chat3/src/Components/Response.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT3/chat3/src/Components/Typing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT3/chat3/src/Components/Typing.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT3/chat3/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT3/chat3/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT3/listing/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/HT3/listing/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT3/listing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HT3/listing/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT3/listing/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT3/listing/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT3/listing/src/Components/Listing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT3/listing/src/Components/Listing.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ht2/category-projects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ht2/category-projects/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ht2/category-projects/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ht2/category-projects/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ht2/category-projects/src/components/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Ht2/category-projects/src/components/Portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ht2/category-projects/src/components/Toolbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Ht2/category-projects/src/components/Toolbar.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="b2457bbf-4c5b-4d43-a3fa-2a80fcd5f1ca" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="720" />
