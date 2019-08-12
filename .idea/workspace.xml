@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2457bbf-4c5b-4d43-a3fa-2a80fcd5f1ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HT3/listing/.idea/listing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HT4/.idea/HT4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HT4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HT4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HT4/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT3/film-rate/src/coponents/Stars.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT3/film-rate/src/coponents/Stars.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT3/listing/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT3/listing/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ht2/category-projects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ht2/category-projects/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b2457bbf-4c5b-4d43-a3fa-2a80fcd5f1ca" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="449" />
     <option name="y" value="352" />
     <option name="width" value="720" />
@@ -271,7 +261,7 @@
     <option name="totallyTimeSpent" value="153665000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984375" visible="true" weight="0.108742006" />
