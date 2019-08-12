@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2457bbf-4c5b-4d43-a3fa-2a80fcd5f1ca" name="Default Changelist" comment="" />
+    <list default="true" id="b2457bbf-4c5b-4d43-a3fa-2a80fcd5f1ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/HT4/trainingcounter/src/Components/FormList.jsx" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,41 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Form2.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="830">
-              <caret line="222" column="61" lean-forward="true" selection-start-line="222" selection-start-column="61" selection-end-line="222" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#2866#2885#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/FormList.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/App.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Table.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -57,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="-187">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="17" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -66,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Forms.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -154,11 +122,6 @@
             <path>
               <item name="React" type="b2602c69:ProjectViewProjectNode" />
               <item name="React" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React" type="b2602c69:ProjectViewProjectNode" />
@@ -253,18 +216,18 @@
       <workItem from="1565349007476" duration="12302000" />
       <workItem from="1565369385352" duration="3696000" />
       <workItem from="1565519736993" duration="1793000" />
-      <workItem from="1565604436580" duration="11317000" />
+      <workItem from="1565604436580" duration="11640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153665000" />
+    <option name="totallyTimeSpent" value="153988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984375" visible="true" weight="0.108742006" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984375" visible="true" weight="0.108742006" />
       <window_info id="Structure" order="1" sideWeight="0.5015625" side_tool="true" weight="0.104477614" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -277,7 +240,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2967033" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2967033" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -557,23 +520,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Form.jsx" />
-    <entry file="file://$PROJECT_DIR$/HT4/colorconverter/src/Components/Сonverter.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT4/colorconverter/src/Components/Input.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HT3/listing/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -598,47 +544,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Form2.jsx">
+    <entry file="file://$PROJECT_DIR$/HT4/colorconverter/src/Components/Сonverter.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="830">
-          <caret line="222" column="61" lean-forward="true" selection-start-line="222" selection-start-column="61" selection-end-line="222" selection-end-column="61" />
+        <state relative-caret-position="1054">
+          <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#2866#2885#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/FormList.jsx">
+    <entry file="file://$PROJECT_DIR$/HT4/colorconverter/src/Components/Input.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="762">
           <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Table.jsx">
+    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Form2.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="95" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="524">
+          <caret line="204" column="1" lean-forward="true" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#2866#2885#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -647,6 +583,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/FormList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Table.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="95" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
         </state>
       </provider>
     </entry>
