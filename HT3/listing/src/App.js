@@ -4,8 +4,8 @@ import './App.css';
 import Listing from "./Components/Listing";
 
 
-
-const data = JSON.parse({
+const data = (
+    [{
     "listing_id": 708099714,
     "state": "active",
     "user_id": 134783484,
@@ -1714,13 +1714,16 @@ const data = JSON.parse({
         "full_height": null,
         "full_width": null
     }
-});
+}
+]);
 
+const items = JSON.parse(data);
 function App() {
 
     return (
         <div className="App">
-            <Listing items={data}/>
+            <Listing item={items}/>
+            
         </div>
     );
 }

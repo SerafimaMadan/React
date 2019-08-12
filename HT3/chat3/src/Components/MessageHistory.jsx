@@ -6,8 +6,8 @@ import Response from './Response';
 
 export default function MessageHistory(props) {
     const messageList = props.list.map(message => {
-
-        const MessageType = message.type === 'message' ? Message : (message.type === 'response' ? Response : Typing);
+        const resultForMessage = message.type === 'response' ? Response : Typing;
+        const MessageType = message.type === 'message' ? Message : resultForMessage;
         return <MessageType key={message.id} from={message.from} message={message} />
     });
 

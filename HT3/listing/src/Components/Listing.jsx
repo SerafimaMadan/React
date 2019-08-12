@@ -4,7 +4,7 @@ import React from 'react';
 export  default function Listing(props) {
 
    //пропишем условие для ограничения длинны предложения с помощью метода slice
-    const itemList = props.items.map(item => {
+    const itemList = props.data.map(item => {
 
         const title = item.title.length > 50 ? `${item.title.slice(0, 50)}...` : item.title;
 //пропишем условия для смена валюты при необходимости
@@ -18,8 +18,9 @@ export  default function Listing(props) {
             return `${price} ${code === 'GBP'}`;
         };
 //прописываем условия для прописывания остатка товаров используя класс level-* ниже
-        const amount = (item.quantity <= 10) ? 'low' : (item.quantity <= 20 ? 'medium' : 'high');
-
+        const otherResult = (item.quantity <= 20)? 'medium' : 'high';
+        const amount = (item.quantity <= 10) ? 'low' : otherResult;
+       
         return (
             <div className='item' key={item.listing_id}>
                 <div className='item-image'>
@@ -40,5 +41,5 @@ export  default function Listing(props) {
 }
 //условие по умолчанию
 Listing.defaultProps = {
-    items: []
-};
+    data: []
+}; 
