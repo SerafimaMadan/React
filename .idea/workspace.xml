@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2457bbf-4c5b-4d43-a3fa-2a80fcd5f1ca" name="Default Changelist" comment="" />
+    <list default="true" id="b2457bbf-4c5b-4d43-a3fa-2a80fcd5f1ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HT3/listing/.idea/listing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HT4/.idea/HT4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HT4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HT4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HT4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT3/film-rate/src/coponents/Stars.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT3/film-rate/src/coponents/Stars.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT3/listing/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT3/listing/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ht2/category-projects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ht2/category-projects/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,52 +22,65 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT3/listing/src/App.js">
+        <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Form2.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28784">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="830">
+              <caret line="222" column="61" lean-forward="true" selection-start-line="222" selection-start-column="61" selection-end-line="222" selection-end-column="61" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#2866#2885#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT3/chat3/src/index.js">
+        <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/FormList.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="136">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="50" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT3/listing/src/Components/Listing.jsx">
+        <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="405">
+              <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Table.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="95" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HT1/shopfunction/src/components/ShopItemFunc.jsx">
+        <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Forms.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT3/listing/src/App.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3298">
-              <caret line="194" column="1" selection-start-line="194" selection-start-column="1" selection-end-line="194" selection-end-column="1" />
+            <state relative-caret-position="340">
+              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -70,19 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ht2/portfolio with filters/src/models/Projects.jsx" />
-        <option value="$PROJECT_DIR$/Ht2/portfolio with filters/src/components/ProjectList.jsx" />
-        <option value="$PROJECT_DIR$/Ht2/portfolio with filters/src/components/Portfolio.jsx" />
-        <option value="$PROJECT_DIR$/Ht2/portfolio with filters/src/components/Toolbar.jsx" />
-        <option value="$PROJECT_DIR$/Ht2/portfolio with filters/package.json" />
-        <option value="$PROJECT_DIR$/Ht2/intro/src/components/Toolbar.jsx" />
-        <option value="$PROJECT_DIR$/Ht2/intro/src/components/Portfolio.jsx" />
-        <option value="$PROJECT_DIR$/items/public/index.html" />
-        <option value="$PROJECT_DIR$/items/src/module/CardProp.jsx" />
-        <option value="$PROJECT_DIR$/Ht2/intro/src/App.css" />
-        <option value="$PROJECT_DIR$/shopclass/src/components/ShopItemClass.jsx" />
-        <option value="$PROJECT_DIR$/Ht2/intro/src/App.js" />
-        <option value="$PROJECT_DIR$/items/src/component/Icon.jsx" />
         <option value="$PROJECT_DIR$/items/src/index.js" />
         <option value="$PROJECT_DIR$/items/src/module/Products.jsx" />
         <option value="$PROJECT_DIR$/items/src/App.js" />
@@ -108,21 +118,38 @@
         <option value="$PROJECT_DIR$/HT3/film-rate/src/App.js" />
         <option value="$PROJECT_DIR$/HT3/film-rate/src/coponents/Starview.jsx" />
         <option value="$PROJECT_DIR$/HT3/listing/src/index.js" />
-        <option value="$PROJECT_DIR$/HT3/film-rate/src/coponents/Stars.jsx" />
         <option value="$PROJECT_DIR$/HT3/listing/src/App.css" />
         <option value="$PROJECT_DIR$/HT3/listing/src/Components/Item.jsx" />
         <option value="$PROJECT_DIR$/HT3/listing/public/index.html" />
         <option value="$PROJECT_DIR$/HT3/chat3/src/index.js" />
         <option value="$PROJECT_DIR$/HT1/shopclass/src/App.js" />
         <option value="$PROJECT_DIR$/HT3/chat3/src/Components/MessageHistory.jsx" />
+        <option value="$PROJECT_DIR$/HT4/colorconverter/src/index.js" />
+        <option value="$PROJECT_DIR$/HT4/colorconverter/public/index.html" />
+        <option value="$PROJECT_DIR$/HT4/colorconverter/src/App.css" />
+        <option value="$PROJECT_DIR$/HT4/colorconverter/src/App.js" />
+        <option value="$PROJECT_DIR$/HT3/film-rate/src/coponents/Stars.jsx" />
         <option value="$PROJECT_DIR$/HT3/listing/src/Components/Listing.jsx" />
+        <option value="$PROJECT_DIR$/HT4/trainingcounter/src/Components/form2.jsx" />
+        <option value="$PROJECT_DIR$/HT4/trainingcounter/src/Components/it.jsx" />
+        <option value="$PROJECT_DIR$/HT4/trainingcounter/src/Components/Form.jsx" />
+        <option value="$PROJECT_DIR$/HT4/trainingcounter/src/Components/FormList.jsx" />
+        <option value="$PROJECT_DIR$/HT4/trainingcounter/src/Components/CartItem.jsx" />
+        <option value="$PROJECT_DIR$/HT4/colorconverter/src/Components/Сonverter.jsx" />
+        <option value="$PROJECT_DIR$/HT4/colorconverter/src/Components/Input.jsx" />
+        <option value="$PROJECT_DIR$/HT4/trainingcounter/src/Components/FormItem.jsx" />
         <option value="$PROJECT_DIR$/HT3/listing/src/App.js" />
+        <option value="$PROJECT_DIR$/HT4/trainingcounter/src/Components/Form2.jsx" />
+        <option value="$PROJECT_DIR$/HT4/trainingcounter/src/Components/Forms.jsx" />
+        <option value="$PROJECT_DIR$/HT4/trainingcounter/src/App.css" />
+        <option value="$PROJECT_DIR$/HT4/trainingcounter/src/App.js" />
+        <option value="$PROJECT_DIR$/HT4/trainingcounter/src/Components/Table.jsx" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="449" />
+    <option name="y" value="352" />
     <option name="width" value="720" />
     <option name="height" value="525" />
   </component>
@@ -141,73 +168,31 @@
             <path>
               <item name="React" type="b2602c69:ProjectViewProjectNode" />
               <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT1" type="462c0819:PsiDirectoryNode" />
+              <item name="HT3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React" type="b2602c69:ProjectViewProjectNode" />
               <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT1" type="462c0819:PsiDirectoryNode" />
-              <item name="shopfunction" type="462c0819:PsiDirectoryNode" />
+              <item name="HT4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React" type="b2602c69:ProjectViewProjectNode" />
               <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT1" type="462c0819:PsiDirectoryNode" />
-              <item name="shopfunction" type="462c0819:PsiDirectoryNode" />
+              <item name="HT4" type="462c0819:PsiDirectoryNode" />
+              <item name="trainingcounter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React" type="462c0819:PsiDirectoryNode" />
+              <item name="HT4" type="462c0819:PsiDirectoryNode" />
+              <item name="trainingcounter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React" type="b2602c69:ProjectViewProjectNode" />
               <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT1" type="462c0819:PsiDirectoryNode" />
-              <item name="shopfunction" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT3" type="462c0819:PsiDirectoryNode" />
-              <item name="chat3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT3" type="462c0819:PsiDirectoryNode" />
-              <item name="chat3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT3" type="462c0819:PsiDirectoryNode" />
-              <item name="chat3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT3" type="462c0819:PsiDirectoryNode" />
-              <item name="listing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT3" type="462c0819:PsiDirectoryNode" />
-              <item name="listing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT3" type="462c0819:PsiDirectoryNode" />
-              <item name="listing" type="462c0819:PsiDirectoryNode" />
+              <item name="HT4" type="462c0819:PsiDirectoryNode" />
+              <item name="trainingcounter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -222,7 +207,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Ht2/category-projects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HT3/listing" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -244,6 +229,10 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",HIDE_INHERITED_FROM_OBJECT,SHOW_INHERITED,SHOW_CLASSES,ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -269,18 +258,24 @@
       <workItem from="1564762358072" duration="9738000" />
       <workItem from="1565011820595" duration="17610000" />
       <workItem from="1565109944648" duration="1432000" />
-      <workItem from="1565166584465" duration="7989000" />
+      <workItem from="1565166584465" duration="9884000" />
+      <workItem from="1565275718540" duration="6490000" />
+      <workItem from="1565349007476" duration="12302000" />
+      <workItem from="1565369385352" duration="3696000" />
+      <workItem from="1565519736993" duration="1793000" />
+      <workItem from="1565604436580" duration="11317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116172000" />
+    <option name="totallyTimeSpent" value="153665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10341151" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984375" visible="true" weight="0.108742006" />
+      <window_info id="Structure" order="1" sideWeight="0.5015625" side_tool="true" weight="0.104477614" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -292,7 +287,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2967033" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2967033" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -304,22 +299,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ht2/intro/src/models/Projects.jsx" />
-    <entry file="file://$PROJECT_DIR$/Ht2/intro/src/components/Toolbar.jsx" />
-    <entry file="file://$PROJECT_DIR$/items/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/Ht2/intro/src/components/Portfolio.jsx" />
-    <entry file="file://$PROJECT_DIR$/shopclass/src/App.js" />
-    <entry file="file://$PROJECT_DIR$/shopclass/src/models/Item.jsx" />
-    <entry file="file://$PROJECT_DIR$/items/src/module/Products.jsx" />
-    <entry file="file://$PROJECT_DIR$/calendar/src/components/Calendar.jsx" />
-    <entry file="file://$PROJECT_DIR$/shopclass/src/components/ShopItemClass.jsx" />
-    <entry file="file://$PROJECT_DIR$/shopfunction/src/App.js" />
-    <entry file="file://$PROJECT_DIR$/shopfunction/src/components/ShopItemFunc.jsx" />
-    <entry file="file://$PROJECT_DIR$/Ht2/intro/src/components/ProjectList.jsx" />
-    <entry file="file://$PROJECT_DIR$/items/src/component/ShopCard.jsx" />
-    <entry file="file://$PROJECT_DIR$/items/src/component/ShopItem.jsx" />
-    <entry file="file://$PROJECT_DIR$/items/src/component/Store.jsx" />
-    <entry file="file://$PROJECT_DIR$/items/src/component/IconSwitch.jsx" />
     <entry file="file://$PROJECT_DIR$/items/src/component/CardsView.jsx" />
     <entry file="file://$PROJECT_DIR$/items/src/App.css" />
     <entry file="file://$PROJECT_DIR$/items/src/component/ListView.jsx" />
@@ -367,33 +346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT3/film-rate/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT3/film-rate/src/coponents/Starview.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT3/film-rate/src/coponents/Stars.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HT3/listing/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -408,16 +360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ht2/category-projects/src/components/Portfolio.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -449,39 +391,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT1/shopclass/src/components/ShopItemClass.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="23" column="78" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT3/chat3/src/Components/Message.jsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/HT3/chat3/src/Components/Typing.jsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT3/chat3/src/Components/Response.jsx">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/HT3/listing/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3298">
           <caret line="194" column="1" selection-start-line="194" selection-start-column="1" selection-end-line="194" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT3/chat3/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -521,10 +437,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT3/listing/src/App.js">
+    <entry file="file://$PROJECT_DIR$/HT1/shopfunction/src/components/ShopItemFunc.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28784">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="170">
+          <caret line="10" column="69" lean-forward="true" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT3/chat3/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/colorconverter/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/colorconverter/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/colorconverter/node_modules/react-dom/cjs/react-dom.development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/colorconverter/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -534,7 +494,100 @@
     <entry file="file://$PROJECT_DIR$/HT3/chat3/src/Components/MessageHistory.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT3/chat3/src/Components/Response.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/colorconverter/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ht2/category-projects/src/components/Portfolio.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT3/film-rate/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT3/film-rate/src/coponents/Starview.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT3/film-rate/src/coponents/Stars.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT1/shopclass/src/components/ShopItemClass.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="78" lean-forward="true" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/it.jsx" />
+    <entry file="file://$PROJECT_DIR$/HT3/chat3/src/Components/Message.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Form.jsx" />
+    <entry file="file://$PROJECT_DIR$/HT4/colorconverter/src/Components/Сonverter.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/colorconverter/src/Components/Input.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT3/listing/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="1736" lean-forward="true" selection-start-line="1736" selection-end-line="1736" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -543,15 +596,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HT3/listing/src/Components/Listing.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="425">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT1/shopfunction/src/components/ShopItemFunc.jsx">
+    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/FormItem.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="374">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Form2.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="222" column="61" lean-forward="true" selection-start-line="222" selection-start-column="61" selection-end-line="222" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#2866#2885#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/FormList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Table.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="95" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Forms.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
         </state>
       </provider>
     </entry>

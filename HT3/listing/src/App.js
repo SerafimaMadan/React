@@ -3,7 +3,9 @@ import React from 'react';
 import './App.css';
 import Listing from "./Components/Listing";
 
-const items = [{
+
+
+const data = JSON.parse({
     "listing_id": 708099714,
     "state": "active",
     "user_id": 134783484,
@@ -72,7 +74,7 @@ const items = [{
         "url_570xN": "https://i.etsystatic.com/16754592/r/il/63cb4f/1945247446/il_570xN.1945247446_kh4u.jpg",
         "url_fullxfull": "https://i.etsystatic.com/16754592/r/il/63cb4f/1945247446/il_fullxfull.1945247446_kh4u.jpg",
         "full_height": null,
-        "full_width": null
+        "full_width": null,
     }
 }, {
     "listing_id": 225003193,
@@ -1712,16 +1714,16 @@ const items = [{
         "full_height": null,
         "full_width": null
     }
-}];
-
+});
 
 function App() {
 
     return (
         <div className="App">
-            <Listing item={items}/>
+            <Listing items={data}/>
         </div>
     );
 }
 
 export default App;
+

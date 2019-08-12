@@ -6,9 +6,10 @@ import Starview from './Starview';
 
 export default function Stars({count}) {
 //задаём условие для атрибута
-    if (count > 0 && count <= 5) {
-        const stars = (rating) => {
-
+    if (count < 1 || count > 5) {
+        return null;
+    }
+         const stars = (rating) => {
             let result = [];
             for (let i = 0; i < rating; i++) {
                 //при соответствии условий добавим звезды в конец массива result
@@ -23,10 +24,7 @@ export default function Stars({count}) {
                 </ul>
 
         </div>);
-    } else {
-        //если другое, т.е. 0 или что-то кроме цифры, нет реализации
-        return null;
-    }
+
 }
 //определим значение атрибута по умолчанию
 Stars.defaultProps = {count: 0};
