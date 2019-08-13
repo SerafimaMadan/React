@@ -24,7 +24,7 @@ export  default function Listing(props) {
             <div className='item' key={item.listing_id}>
                 <div className='item-image'>
                     <a href={item.url}>
-                        <img src={item.MainImage} alt="Item pic"/>
+                        <img src={item.MainImage && item.MainImage.url_570xN} alt="Item pic"/>
                     </a>
                 </div>
                 <div className='item-details'>
