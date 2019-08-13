@@ -1717,12 +1717,12 @@ const data = (
 }
 ]);
 
-const items = JSON.parse(data);
+const items = data;
 function App() {
 
     return (
         <div className="App">
-            <Listing item={items}/>
+            <Listing items={items}/>
             
         </div>
     );
