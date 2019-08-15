@@ -5,6 +5,7 @@ import Header from './Components/Header';
 import Menu from "./Components/Menu";
 import SearchBar from "./Components/SearchBar";
 import Body from "./Components/Body";
+import Advertising from "./Components/Advertising";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
             <Header/>
             <Menu />
             <SearchBar image="..."/>
+            <Advertising/>
             <Body/>
         </div>
     );

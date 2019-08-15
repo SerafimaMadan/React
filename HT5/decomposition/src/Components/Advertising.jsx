@@ -1,16 +1,18 @@
 import React from 'react';
 
 
-export default function Advertising(props)  {
+export default function Advertising()  {
 
+    const Pic = props => (
+        <div><a href={props.link}>{props.image}</a></div>
+    );
+    const Row = props => (
+        <a href={props.link}>{props.title}</a>
+    );
     return (
-        <div className="card" >
-            <div className="card-body">
-                <h5 className="card-title">{props.title}</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the
-                    bulk of the card's content.</p>
-                <a href={props.link} className="btn btn-primary">Go somewhere</a>
-            </div>
+        <div className="advert">Отвечает за блок с рекламой после поисковой строки
+            <Pic link="#"/>
+            <Row title="Film" link="#"/>
         </div>
     )
 }
