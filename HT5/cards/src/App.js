@@ -1,15 +1,17 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css;
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
-import ItemCard from "./Components/ItemCard";
+import ItemCardThree from "./Components/ItemCardThree";
 import ItemCardTwo from "./Components/ItemCardTwo";
 
  function App() {
   return (
     <div className="App">
-<ItemCard/>
-<ItemCardTwo/>
+
+<ItemCardThree title = "Card title" link = "#"/>
+<ItemCardTwo title = "Special title treatment" link = "#" img="..."/>
 
     </div>
   );
