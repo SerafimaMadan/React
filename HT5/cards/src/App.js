@@ -3,18 +3,18 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
-import ItemCardThree from "./Components/ItemCardThree";
-import ItemCardTwo from "./Components/ItemCardTwo";
+import ItemCard from "./Components/ItemCard";
 
- function App() {
-  return (
-    <div className="App">
 
-<ItemCardThree title = "Card title" link = "#"/>
-<ItemCardTwo title = "Special title treatment" link = "#" img="..."/>
-
-    </div>
-  );
+function App() {
+    return (
+        <div className="App">
+            <ItemCard title="Card title" link="#"><img src="..." className="card-img-top"
+                                                                    alt="Images cap"/>
+            </ItemCard>
+            <ItemCard title="Special title treatment" link="#"/>
+        </div>
+    );
 }
 
 export default App;

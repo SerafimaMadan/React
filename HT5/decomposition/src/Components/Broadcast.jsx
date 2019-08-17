@@ -1,17 +1,9 @@
 import React from 'react';
+import List from "./List";
+import ListItem from "./ListItem";
 
 
 export default function Broadcast()  {
-    const List = props => (
-        <div><h2 className="card-body">{props.title}</h2>
-            <ul className={props.className} style={props.style}>{props.children}</ul>
-        </div>
-    );
-    const ListItem = props => (
-        <li className={props.className}><i>{props.icon}</i><a href={props.link}><p>{props.time}</p>{props.title}
-        </a>{props.children}</li>
-    );
-
 
     return (
         <div className="card">

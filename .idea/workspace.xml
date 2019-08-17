@@ -3,8 +3,32 @@
   <component name="ChangeListManager">
     <list default="true" id="b2457bbf-4c5b-4d43-a3fa-2a80fcd5f1ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT5/decomposition/src/Components/Broadcast.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT5/decomposition/src/Components/Broadcast.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT5/cards/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT5/cards/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT5/cards/src/Components/ItemCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT5/cards/src/Components/ItemCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT5/cards/src/Components/ItemCardThree.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT5/cards/src/Components/ItemCardTwo.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT5/decomposition/src/Components/CurrencyQuotes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT5/decomposition/src/Components/CurrencyQuotes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT5/decomposition/src/Components/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT5/decomposition/src/Components/Menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT5/decomposition/src/Components/PopularSearching.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT5/decomposition/src/Components/PopularSearching.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT5/decomposition/src/Components/RelevantNow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT5/decomposition/src/Components/RelevantNow.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HT5/decomposition/src/Components/TVprogram.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT5/decomposition/src/Components/TVprogram.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clock/src/serviceWorker.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,67 +40,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/PopularSearching.jsx">
+        <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Header.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="323">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Weather.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="12" selection-start-line="5" selection-start-column="2" selection-end-line="19" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Broadcast.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Maps.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/TVprogram.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/SearchBar.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -84,8 +54,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Body.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+            <state relative-caret-position="255">
+              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/CurrencyQuotes.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -94,19 +76,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Advertising.jsx">
+        <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/TVprogram.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="85">
+              <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/App.css">
+        <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/List.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="34">
+              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/ListItem.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="124" selection-start-line="5" selection-start-column="124" selection-end-line="5" selection-end-column="124" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Weather.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -119,15 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HT3/listing/public/index.html" />
-        <option value="$PROJECT_DIR$/HT3/chat3/src/index.js" />
-        <option value="$PROJECT_DIR$/HT1/shopclass/src/App.js" />
-        <option value="$PROJECT_DIR$/HT4/colorconverter/src/index.js" />
-        <option value="$PROJECT_DIR$/HT4/colorconverter/public/index.html" />
-        <option value="$PROJECT_DIR$/HT4/colorconverter/src/App.css" />
-        <option value="$PROJECT_DIR$/HT4/colorconverter/src/App.js" />
-        <option value="$PROJECT_DIR$/HT3/film-rate/src/coponents/Stars.jsx" />
-        <option value="$PROJECT_DIR$/HT3/listing/src/Components/Listing.jsx" />
         <option value="$PROJECT_DIR$/HT4/trainingcounter/src/Components/form2.jsx" />
         <option value="$PROJECT_DIR$/HT4/trainingcounter/src/Components/it.jsx" />
         <option value="$PROJECT_DIR$/HT4/trainingcounter/src/Components/Form.jsx" />
@@ -145,35 +139,44 @@
         <option value="$PROJECT_DIR$/HT5/cards/public/index.html" />
         <option value="$USER_HOME$/Downloads/reactJS_DZs-newDZ/3.html" />
         <option value="$PROJECT_DIR$/HT5/cards/src/Components/ItemCardTwo.jsx" />
-        <option value="$PROJECT_DIR$/HT5/cards/src/Components/ItemCard.jsx" />
-        <option value="$PROJECT_DIR$/HT5/cards/src/App.js" />
         <option value="$PROJECT_DIR$/HT5/cards/src/App.css" />
         <option value="$PROJECT_DIR$/HT5/decomposition/public/index.html" />
         <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/SarchBar.jsx" />
         <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/PopularSearhing.jsx" />
         <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/GrammaHelper.jsx" />
-        <option value="$PROJECT_DIR$/HT5/cards/src/Components/ItemCardThree.jsx" />
         <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/GrammarHelper.jsx" />
         <option value="$PROJECT_DIR$/HT4/colorconverter/src/Components/Input.jsx" />
         <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/SearchBar.jsx" />
-        <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/RelevantNow.jsx" />
         <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/Header.jsx" />
-        <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/CurrencyQuotes.jsx" />
-        <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/News.jsx" />
-        <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/Menu.jsx" />
         <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/Body.jsx" />
         <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/Maps.jsx" />
         <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/Weather.jsx" />
-        <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/PopularSearching.jsx" />
         <option value="$PROJECT_DIR$/HT5/decomposition/src/App.js" />
         <option value="$PROJECT_DIR$/HT5/decomposition/src/App.css" />
         <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/Advertising.jsx" />
-        <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/TVprogram.jsx" />
         <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/Broadcast.jsx" />
+        <option value="$PROJECT_DIR$/HT6/clock/src/index.js" />
+        <option value="$PROJECT_DIR$/HT6/clock/public/index.html" />
+        <option value="$PROJECT_DIR$/HT6/clock/src/Component/timeZone.json" />
+        <option value="$PROJECT_DIR$/HT6/clock/src/App.css" />
+        <option value="$PROJECT_DIR$/HT6/clock/src/Component/Clock.jsx" />
+        <option value="$PROJECT_DIR$/HT6/clock/src/App.js" />
+        <option value="$PROJECT_DIR$/HT5/cards/src/Components/ItemCardThree.jsx" />
+        <option value="$PROJECT_DIR$/HT5/cards/src/Components/Card.jsx" />
+        <option value="$PROJECT_DIR$/HT5/cards/src/Components/ItemCard.jsx" />
+        <option value="$PROJECT_DIR$/HT5/cards/src/App.js" />
+        <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/List.jsx" />
+        <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/ListItem.jsx" />
+        <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/TVprogram.jsx" />
+        <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/RelevantNow.jsx" />
+        <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/News.jsx" />
+        <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/Menu.jsx" />
+        <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/PopularSearching.jsx" />
+        <option value="$PROJECT_DIR$/HT5/decomposition/src/Components/CurrencyQuotes.jsx" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="449" />
     <option name="y" value="352" />
     <option name="width" value="720" />
@@ -184,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,18 +200,38 @@
               <item name="React" type="462c0819:PsiDirectoryNode" />
               <item name="HT5" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="React" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React" type="462c0819:PsiDirectoryNode" />
+              <item name="HT5" type="462c0819:PsiDirectoryNode" />
+              <item name="decomposition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React" type="462c0819:PsiDirectoryNode" />
+              <item name="HT5" type="462c0819:PsiDirectoryNode" />
+              <item name="decomposition" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React" type="462c0819:PsiDirectoryNode" />
+              <item name="HT5" type="462c0819:PsiDirectoryNode" />
+              <item name="decomposition" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../landingSite" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -266,18 +290,20 @@
       <workItem from="1565604436580" duration="14017000" />
       <workItem from="1565705437631" duration="7113000" />
       <workItem from="1565778924764" duration="14489000" />
-      <workItem from="1565863909119" duration="7377000" />
+      <workItem from="1565863909119" duration="9532000" />
+      <workItem from="1565978834371" duration="759000" />
+      <workItem from="1566039432656" duration="5728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185344000" />
+    <option name="totallyTimeSpent" value="193986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984375" visible="true" weight="0.1119403" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984375" visible="true" weight="0.114072494" />
       <window_info id="Structure" order="1" sideWeight="0.5015625" side_tool="true" weight="0.104477614" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -290,7 +316,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2967033" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2967033" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -302,55 +328,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HT3/film-rate/src/coponents/Stars.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/it.jsx" />
-    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Form.jsx" />
-    <entry file="file://$PROJECT_DIR$/HT3/listing/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="1736" lean-forward="true" selection-start-line="1736" selection-end-line="1736" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT3/listing/src/Components/Listing.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/FormItem.jsx" />
-    <entry file="file://$PROJECT_DIR$/HT4/colorconverter/src/Components/Сonverter.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Form2.jsx" />
-    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/FormList.jsx" />
     <entry file="file://$PROJECT_DIR$/HT3/chat3/src/Components/Message.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -442,23 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT5/cards/src/Components/ItemCardTwo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT5/cards/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HT5/decomposition/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -467,113 +427,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT5/cards/src/Components/ItemCard.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" lean-forward="true" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT5/cards/src/Components/ItemCardThree.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT5/cards/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HT4/colorconverter/src/Components/Input.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/RelevantNow.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/CurrencyQuotes.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/GrammarHelper.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/News.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Header.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Menu.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/PopularSearching.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Weather.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="12" selection-start-line="5" selection-start-column="2" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/SearchBar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Body.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -594,10 +451,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HT6/clock/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT6/clock/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/cards/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT6/clock/src/Component/timezone.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT6/clock/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT6/clock/src/Component/Clock.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT6/clock/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1459">
+          <caret line="295" selection-start-line="295" selection-end-line="295" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/cards/src/Components/ItemCardTwo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/cards/src/Components/ItemCardThree.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/cards/src/Components/Card.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/cards/src/Components/Card.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/cards/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Advertising.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Broadcast.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/GrammarHelper.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -608,17 +578,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/TVprogram.jsx">
+    <entry file="file://$PROJECT_DIR$/HT5/cards/src/Components/ItemCard.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="51">
+          <caret line="3" column="31" selection-start-line="3" selection-end-line="3" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Broadcast.jsx">
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Weather.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/SearchBar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/RelevantNow.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/ListItem.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="124" selection-start-line="5" selection-start-column="124" selection-end-line="5" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/List.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/News.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/TVprogram.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/PopularSearching.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Menu.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Header.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Body.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/CurrencyQuotes.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

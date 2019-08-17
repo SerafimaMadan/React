@@ -1,19 +1,18 @@
 import React from 'react';
+import List from "./List";
+import ListItem from "./ListItem";
 
 
-export default function CurrencyQuotes(props) {
-//компонент похож по структуре с RelevantNow, но не уверена в возможности использования здесь
-    const CurrencyColumn = props =>(
-        <div className="rows"><a href={props.link}>{props.title}</a></div>
-    );
+export default function CurrencyQuotes() {
+
     return (
         <div className="card"> Отвечает за строку "курсы валют"
-            <div className="first-row">
-                <CurrencyColumn title="USD" link="#"/>
-                <CurrencyColumn title="EUO" link="#"/>
-                <CurrencyColumn title="Oil" link="#"/>
-                <CurrencyColumn title="..." link="#"/>
-            </div>
+            <List className="first-row">
+                <ListItem title="USD" link="#"/>
+                <ListItem title="EUO" link="#"/>
+                <ListItem title="Oil" link="#"/>
+                <ListItem title="..." link="#"/>
+            </List>
         </div>
     )
 }

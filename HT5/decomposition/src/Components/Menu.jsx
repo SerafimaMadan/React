@@ -1,22 +1,21 @@
 import React from 'react';
-
+import List from "./List";
+import ListItem from "./ListItem";
 
 export default function Menu()  {
-    const MenuRow = props =>(
-        <a href={props.link}>{props.title}</a>
-    );
+
     return (
         <div className="menu" >
-            <div className="first-row">
-                <MenuRow title="Menu1" link="#"/>
-                <MenuRow title="Menu2" link="#"/>
-                <MenuRow title="Menu3" link="#"/>
-                <MenuRow title="Menu4" link="#"/>
-                <MenuRow title="Menu5" link="#"/>
-                <MenuRow title="Menu6" link="#"/>
-                <MenuRow title="Menu7" link="#"/>
-                <MenuRow title="Menu8" link="#"/>
-            </div>
+            <List className="first-row">
+                <ListItem title="Menu1" link="#"/>
+                <ListItem title="Menu2" link="#"/>
+                <ListItem title="Menu3" link="#"/>
+                <ListItem title="Menu4" link="#"/>
+                <ListItem title="Menu5" link="#"/>
+                <ListItem title="Menu6" link="#"/>
+                <ListItem title="Menu7" link="#"/>
+                <ListItem title="Menu8" link="#"/>
+            </List>
         </div>
     )
 }
