@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 
 class Clock extends Component {
@@ -8,6 +8,7 @@ class Clock extends Component {
             time: this.getCurrentTime()
         };
     }
+
     componentDidMount() {
         this.intervalID = setInterval(
             () => this.tick(),
@@ -15,9 +16,8 @@ class Clock extends Component {
         );
     }
 
-    getCurrentTime()
-    {
-        let today = new Date();
+    getCurrentTime() {
+        const today = new Date();
         today.setMinutes(today.getMinutes() + today.getTimezoneOffset() + parseInt(this.props.Offset));
         return today.toLocaleString();
     }
@@ -48,9 +48,6 @@ class Clock extends Component {
                         <p>{this.state.time}</p>
 
                     </div>
-                    <footer className="w3-container w3-blue">
-                        <h5>{this.props.Timezone}</h5>
-                    </footer>
                 </div>
             </div>
         );
