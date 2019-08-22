@@ -10,7 +10,7 @@ class Forms extends Component {
                         <label htmlFor="date">
                             Date (DD.MM.YY):
                             <input id="date" value={this.props.newDate}
-                                   type="text" name="date"
+                                   type="date" name="date"
                                    onChange={this.props.handleInputChange}/>
                         </label></div>
                     <div className="contact-form_input">
