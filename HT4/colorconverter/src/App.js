@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Converter from "./Components/Сonverter";
+import Converters from "./Components/Converters";
 
 function App() {
   return (
     <div className="App">
-<Converter/>
+
+<Converters/>
     </div>
   );
 }

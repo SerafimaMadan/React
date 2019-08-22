@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import Input from './Input';
+
 
 export default class Converter extends Component {
 
@@ -13,26 +13,25 @@ export default class Converter extends Component {
         };
     }
 
+        hexTorgb(c) {
+         const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(c);
+         if (!result) {
+             return null;
+         }
+         result.shift();
+         return result ? `rgb(${result.map(i => parseInt(i, 16)).join(', ')})` : null;
+     }
 
-     hexTorgb(c) {
-   let result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(c);
-        return result ? {
-            r: parseInt(result[1], 16),
-            g: parseInt(result[2], 16),
-            b: parseInt(result[3], 16)
-        } : null;
-    }
-
-    colors(color) {
+    checkColor(color) {
         return /^#?([\da-f]{6})$/i.test(color);
     }
-
+//определяем, что ввести нужно 7 символов # и 6 символов цвета
     fixColor(color) {
-        return color[0] === '#' ? color.slice(0, 7) : `#${color.slice(0, 6)}`;
+        return color === '#' ? color.slice(0, 7) : `#${color.slice(0, 6)}`;
     }
 
     change(color) {
-        if (this.colors(color)) {
+        if (this.checkColor(color)) {
             color = this.fixColor(color);
             this.setState({
                 color,
@@ -43,28 +42,23 @@ export default class Converter extends Component {
             this.setState({
                 isWarning: true,
                 color: this.fixColor(color),
-                result: 'Error!'
+                result: 'Warning!'
             })
         }
     }
-
     render() {
-        const props = {};
-        if (this.state.isWarning) {
-            props.className = 'warning';
-        } else {
-            props.style = {
-                backgroundColor: this.state.color
-            };
-        }
+
 
         return (
-            <figure {...props}>
-                <Input
-                    value={this.state.colors}
+            <form className={this.state.isWarning ? 'warning' : ''}>
+                <input
+                    type="text"
+                    className="hex-field js-hex-field"
+                    placeholder="#333333"
+                    value={this.state.color}
                     onChange={this.change.bind(this)}/>
                 <div className="message js-message">{this.state.result}</div>
-            </figure>
+            </form>
         );
     }
 }

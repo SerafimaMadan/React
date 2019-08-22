@@ -39,13 +39,14 @@ class App extends Component {
             [name]: value
         })
     };
-    onRemoveItems = (i) => {
-        const items = this.state.items.filter((item, index) => {
-            return index !== i;
-        });
+  //  onRemoveItems = (i) => {
+  //      const items = this.state.items;
+  //      items.splice(i, 1);
+  //      this.setState({
+ //           items: items
+ //       });
 
-        this.setState({ items });
-    };
+  //  };
         render() {
         return (
             <div className="App">

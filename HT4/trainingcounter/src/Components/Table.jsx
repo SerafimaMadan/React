@@ -3,6 +3,19 @@ import React, {Component} from 'react';
 
 class Table extends Component {
 
+
+    onRemoveItems = (i) => e => {
+        e.preventDefault();
+        const items = [
+            ...this.state.items.slice(0, i),
+            ...this.state.items.slice(i + 1)
+        ];
+        this.setState({
+            items
+        })
+    };
+
+
     render() {
         const { items } = this.props;
 
@@ -23,7 +36,7 @@ class Table extends Component {
                             <tr key={i}>
                                 <td >{item.date}</td>
                                 <td >{item.way}</td>
-                                <td className="btn" onClick={this.props.onRemoveItems.bind(this)}>&#10008;</td>
+                                <td><button className="btn" onClick={() => this.onRemoveItems.bind(i)}>&#10008;</button></td>
                             </tr>
                         );
                     })}

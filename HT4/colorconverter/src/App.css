@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-figure {
+form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,9 +13,12 @@ figure {
   background: #34495e;
   color: #fff;
   transition: background .4s ease-in-out;
+  width: 100vw;
+  padding: 0;
+
 }
 
-figure.warning {
+form.warning {
   background: #e74c3c;
 }
 
@@ -44,4 +47,19 @@ figure.warning {
   -moz-user-select: all; /* Firefox 43+ */
   -ms-user-select: all; /* No support yet */
   user-select: all;
+   font-size: 2rem;
+  text-align: center;
+
 }
+.app {
+  background: #00bcd4;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
