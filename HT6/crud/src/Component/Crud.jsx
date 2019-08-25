@@ -7,7 +7,6 @@ export default class Crud extends React.Component {
         super(props);
         this.state = {
             title: 'NOTES',
-            act: 0,
             index: '',
             dates: []
         }
@@ -19,13 +18,10 @@ export default class Crud extends React.Component {
 
     noteSubmit = (e) => {
         e.preventDefault();
-        console.log('try');
 
         const dates = this.state.dates;
         const note = this.refs.note.value;
-
         const data = { note };
-
         dates.push(data);
 
         this.setState({
@@ -36,12 +32,15 @@ export default class Crud extends React.Component {
         this.refs.note.focus();
         console.log(dates);
 
-
         axios.post(`REACT_APP_NOTES_URL=http://localhost:3000/notes`, {dates})
+            .then(response => response.json)
             .then(res => {
                 console.log(res);
                 console.log(res.data);
+                this.setState({dates: res.data});
             })
+
+
     };
 
 
@@ -58,7 +57,7 @@ export default class Crud extends React.Component {
     render() {
         const dates = this.state.dates;
         return (
-            <div className="App">
+            <div >
                 <div className="top">
                     <span>{this.state.title}</span>
                     <ul className="list">

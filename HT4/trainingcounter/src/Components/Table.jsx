@@ -4,39 +4,34 @@ import React, {Component} from 'react';
 class Table extends Component {
 
 
-    onRemoveItems = (i) => e => {
-        e.preventDefault();
-        const items = [
-            ...this.state.items.slice(0, i),
-            ...this.state.items.slice(i + 1)
-        ];
-        this.setState({
-            items
-        })
+
+    handleRemoveItem = date => () => {
+        this.props.onRemoveItem(date);
     };
 
-
     render() {
-        const { items } = this.props;
+        const {items} = this.props;
 
         return (
             <div id="cartList">
                 <table>
-                   <thead>
+                    <thead>
                     <tr>
                         <th>Date</th>
                         <th>Way</th>
                         <th>Remove</th>
                     </tr>
-                   </thead>
+                    </thead>
                     <tbody>
-                    {items.map((item,  i) => {
+                    {items.map((item, i) => {
                         return (
 
                             <tr key={i}>
-                                <td >{item.date}</td>
-                                <td >{item.way}</td>
-                                <td><button className="btn" onClick={() => this.onRemoveItems.bind(i)}>&#10008;</button></td>
+                                <td>{item.date}</td>
+                                <td>{item.way}</td>
+                                <td>
+                                    <button className="btn" onClick={this.handleRemoveItem(item.date)}>&#10008;</button>
+                                </td>
                             </tr>
                         );
                     })}

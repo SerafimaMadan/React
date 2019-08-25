@@ -1,61 +1,72 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 import './App.css';
 import Table from './Components/Table';
-import Forms from './Components/Forms';
+import Form from './Components/Form';
 
 class App extends Component {
     constructor(props) {
         super(props);
-
         this.state = {
-            date: '',
-            way: '',
-            items: []
+            input: {
+                date: '',
+                way: '',
+            },
+            items: [],
         }
     };
 
     handleFormSubmit = (e) => {
         e.preventDefault();
 
-        const items = [...this.state.items];
-        items.push({
-            date: this.state.date,
-            way: this.state.way
-        });
-        this.setState({
-            items,
-            date: '',
-            way: ''
+        this.setState(prevState => {
+            const input = {date: '', way: ''};
+            const {date, way} = prevState.input;
+            const {items} = prevState;
+            //условие для сопоставления записей с одинаковыми датами
+            const present = items.find(o => o.date === date);
+            if (present === undefined) {
+                return {
+                    items: [...prevState.items, {date, way: Number(way)}],
+                    input,
+                }
+            }
+            else 
+            return {
+                items: items.map(o => o === present ? { date, way: present.way + Number(way) } : 0),
+            }
         });
     };
 
     handleInputChange = (e) => {
-        const input = e.target;
-        const name = e.target.name;
-        const value = input.value;
+        const {name, value} = e.target;
 
-        this.setState({
-            [name]: value
+        this.setState(prevState => ({
+            input: {
+                ...prevState.input,
+                [name]: value,
+            }
+        }));
+    };
+    onRemoveItem = (date) => {
+        this.setState(prevState => {
+            const {items} = prevState;
+            return {
+                items: items.filter(o => o.date !== date)
+            }
         })
     };
-  //  onRemoveItems = (i) => {
-  //      const items = this.state.items;
-  //      items.splice(i, 1);
-  //      this.setState({
- //           items: items
- //       });
 
-  //  };
-        render() {
+
+    render() {
         return (
             <div className="App">
-
-                <Forms handleFormSubmit={ this.handleFormSubmit }
-                      handleInputChange={ this.handleInputChange }
-                      newDate={ this.state.date }
-                      newWay={ this.state.way }/>
-                <Table items={ this.state.items } onRemoveItems={this.onRemoveItems}/>
+                <Form handleFormSubmit={this.handleFormSubmit}
+                      handleInputChange={this.handleInputChange}
+                      newDate={this.state.date}
+                      newWay={this.state.way}/>
+                <Table items={[...this.state.items].sort((o1, o2) => (new Date(o1.date) + new Date(o2.date)))}
+                       onRemoveItem={this.onRemoveItem}/>
             </div>
         );
     }

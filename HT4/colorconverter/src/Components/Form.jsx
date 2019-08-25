@@ -14,7 +14,7 @@ export default class Form extends React.Component {
     render() {
         return (
 
-                <form >
+                <form style={{ background: this.props.rgb }}>
                     <input
                         className="hex-field js-hex-field"
                         type="text"
@@ -22,7 +22,7 @@ export default class Form extends React.Component {
                         onChange={this.updateInput}
                         value={this.props.value}>
                     </input>
-                <p className="message js-message">{this.props.rgb}</p>
+                <p className="message js-message">{this.props.error ? 'Ошибка' : this.props.rgb}</p>
                 </form>
         )
     }
