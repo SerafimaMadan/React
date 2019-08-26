@@ -1,0 +1,4 @@
+DELETE http://{{url}}/notes/3
+
+###
+

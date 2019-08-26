@@ -31,7 +31,7 @@ class App extends Component {
                     input,
                 }
             }
-            else 
+            else
             return {
                 items: items.map(o => o === present ? { date, way: present.way + Number(way) } : 0),
             }

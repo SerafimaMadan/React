@@ -5,16 +5,22 @@ textarea{
   height: 100px;
   resize: none;
 }
-button{
-  position: absolute;
-  margin-top: 75px;
-  margin-left: 265px;
+.btn{
+
   border: 1px solid #000000;
   border-radius: 50px;
   cursor: pointer;
   height: 30px;
   width: 30px;
   text-align: center;
+}
+.btn-submit{
+   margin-top: 75px;
+  margin-left: 265px;
+  position: absolute;
+}
+.btn-refresh{
+  margin-top: 22px;
 }
 button:active, button:focus {
   outline: none;
@@ -46,19 +52,18 @@ ul.list li {
   margin-left: 8px;
   z-index: 100000;
   word-wrap: break-word;
-  height: auto;
-}
+
+ }
 .btn-remove{
-  position: absolute;
-  margin-top: -35px;
-  margin-left: 150px;
-  border: 1px solid #000000;
-  border-radius: 50px;
-  cursor: pointer;
-  height: 30px;
-  width: 30px;
-  text-align: center;
-}
+  margin-top: -65px;
+  margin-left: 280px;
+  /* position: absolute; */
+  display: flex;
+ }
 .top{
   margin-top: 50px;
+}
+.for-refresh{
+  display: flex;
+
 }

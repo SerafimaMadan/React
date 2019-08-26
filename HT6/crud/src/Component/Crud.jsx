@@ -1,50 +1,45 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import axios from 'axios';
 
-export default class Crud extends React.Component {
+export default class Crud extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            title: 'NOTES',
-            index: '',
             dates: []
         }
     }
-
     componentDidMount() {
         this.refs.note.focus();
     }
 
     noteSubmit = (e) => {
         e.preventDefault();
-
         const dates = this.state.dates;
         const note = this.refs.note.value;
-        const data = { note };
+        const data = {note};
         dates.push(data);
-
         this.setState({
             dates: dates,
         });
+      //  fetch('/notes')
+      //      .then((response) => response.json())
+      //      .then((res) => {
+      //          this.setState({dates: res.dates});
+      //      })
 
-        this.refs.myForm.reset();
-        this.refs.note.focus();
-        console.log(dates);
 
-        axios.post(`REACT_APP_NOTES_URL=http://localhost:3000/notes`, {dates})
+               axios.post(`/notes`, {dates})
             .then(response => response.json)
             .then(res => {
                 console.log(res);
                 console.log(res.data);
                 this.setState({dates: res.data});
+                console.log(this.state);
             })
-
-
     };
 
-
-    noteRemove = (i) =>{
+    noteRemove = (i) => {
         const dates = this.state.dates;
         dates.splice(i, 1);
         this.setState({
@@ -53,17 +48,27 @@ export default class Crud extends React.Component {
         this.refs.myForm.reset();
         this.refs.note.focus();
     };
-
+  //  componentDidUpdate(prevProps, prevState) {
+  //      if (this.props.dates !== prevProps.dates) {
+  //          this.updateNotes(this.props.dates);
+  //      }
+  //  }
+//не доделано
+ //   updateNotes() {
+  //      this.note.update();
+   // }
     render() {
         const dates = this.state.dates;
         return (
-            <div >
+            <div>
                 <div className="top">
-                    <span>{this.state.title}</span>
+                    <div className="for-refresh"><h2>NOTES</h2>
+                        <button className="btn btn-refresh" >&#8635;</button>
+                    </div>
                     <ul className="list">
                         {dates.map((data, i) =>
                             <li key={i} className="news">{i + 1}. {data.note}
-                                <button  onClick={() => this.noteRemove(i)} className="btn-remove" >&#10006;</button>
+                                <button onClick={() => this.noteRemove(i)} className="btn btn-remove">&#10006;</button>
                             </li>
                         )}
                     </ul>
@@ -74,7 +79,8 @@ export default class Crud extends React.Component {
                         <label>
                             <textarea name="note" ref="note" onChange={this.handleChange}/>
                         </label>
-                        <button onClick={(e) => this.noteSubmit(e)} type="submit">&#10148;</button>
+                        <button className="btn btn-submit" onClick={(e) => this.noteSubmit(e)}
+                                type="submit">&#10148;</button>
                     </form>
                 </div>
 
