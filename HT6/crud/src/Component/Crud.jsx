@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import axios from 'axios';
+//import axios from 'axios';
 
 export default class Crud extends Component {
     constructor(props) {
@@ -10,34 +10,38 @@ export default class Crud extends Component {
         }
     }
     componentDidMount() {
+        const dates = this.state.dates;
+        this.setState({dates});
+        // устанавливаем фокус на textarea при монтировании
         this.refs.note.focus();
+        console.log(dates)
     }
 
-    noteSubmit = (e) => {
+    onSubmit = (e) => {
         e.preventDefault();
         const dates = this.state.dates;
         const note = this.refs.note.value;
         const data = {note};
+
         dates.push(data);
         this.setState({
             dates: dates,
         });
-      //  fetch('/notes')
-      //      .then((response) => response.json())
-      //      .then((res) => {
-      //          this.setState({dates: res.dates});
-      //      })
-
-
-               axios.post(`/notes`, {dates})
-            .then(response => response.json)
-            .then(res => {
-                console.log(res);
-                console.log(res.data);
-                this.setState({dates: res.data});
+        fetch(process.env.REACT_APP_NOTES_URL)
+            .then((response) => response.json())
+            .then((res) => {
+                this.setState({dates: dates});
                 console.log(this.state);
             })
-    };
+       //        axios.post(`/notes`, {dates})
+      //      .then(response => response.json)
+       //     .then(res => {
+      //          console.log(res);
+       //         console.log(res.data);
+      //          this.setState({dates: res.data});
+      //          console.log(this.state);
+      //      })
+   };
 
     noteRemove = (i) => {
         const dates = this.state.dates;
@@ -75,11 +79,11 @@ export default class Crud extends Component {
                 </div>
                 <div className="window">
                     <span>New note:</span>
-                    <form ref="myForm" onSubmit={this.handleSubmit}>
+                    <form ref="myForm" onSubmit={this.onSubmit}>
                         <label>
                             <textarea name="note" ref="note" onChange={this.handleChange}/>
                         </label>
-                        <button className="btn btn-submit" onClick={(e) => this.noteSubmit(e)}
+                        <button className="btn btn-submit" onClick={(e) => this.onSubmit(e)}
                                 type="submit">&#10148;</button>
                     </form>
                 </div>

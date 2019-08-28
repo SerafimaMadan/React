@@ -23,14 +23,14 @@ class Table extends Component {
                     </tr>
                     </thead>
                     <tbody>
-                    {items.map((item, i) => {
+                    {items.reverse(items).map((item, i) => {
                         return (
 
-                            <tr key={i}>
+                            <tr key={i} >
                                 <td>{item.date}</td>
                                 <td>{item.way}</td>
                                 <td>
-                                    <button className="btn" onClick={this.handleRemoveItem(item.date)}>&#10008;</button>
+                                    <button className="btn"  onClick={this.handleRemoveItem(item.date)}>&#10008;</button>
                                 </td>
                             </tr>
                         );

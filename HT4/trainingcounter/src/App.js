@@ -23,7 +23,7 @@ class App extends Component {
             const input = {date: '', way: ''};
             const {date, way} = prevState.input;
             const {items} = prevState;
-            //условие для сопоставления записей с одинаковыми датами
+             //условие для сопоставления записей с одинаковыми датами
             const present = items.find(o => o.date === date);
             if (present === undefined) {
                 return {
@@ -33,7 +33,8 @@ class App extends Component {
             }
             else
             return {
-                items: items.map(o => o === present ? { date, way: present.way + Number(way) } : 0),
+                items: items.map(o => o === present ? { date, way: present.way + Number(way) } : o),
+                input
             }
         });
     };
@@ -59,13 +60,14 @@ class App extends Component {
 
 
     render() {
+
         return (
             <div className="App">
                 <Form handleFormSubmit={this.handleFormSubmit}
                       handleInputChange={this.handleInputChange}
                       newDate={this.state.date}
                       newWay={this.state.way}/>
-                <Table items={[...this.state.items].sort((o1, o2) => (new Date(o1.date) + new Date(o2.date)))}
+                <Table  items={[...this.state.items].sort((o1, o2) => (new Date(o1.date) + new Date(o2.date)))}
                        onRemoveItem={this.onRemoveItem}/>
             </div>
         );
