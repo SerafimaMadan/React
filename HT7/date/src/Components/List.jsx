@@ -4,10 +4,10 @@ import Wrapper from './Wrapper'
 import Video from "./Video";
 import Article from "./Article";
 
-export default function List(props) {
-    const WrappedVideo = Wrapper(Video);
-    const WrappedArticle = Wrapper(Article);
+const WrappedVideo = Wrapper(Video);
+const WrappedArticle = Wrapper(Article);
 
+export default function List(props) {
     return props.list.map((item, i) => {
         switch (item.type) {
             case 'video':
