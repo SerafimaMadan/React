@@ -1,11 +1,6 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-export default class Form extends React.Component {
-
-    constructor(props) {
-        super(props);
-        this.updateInput = this.updateInput.bind(this)
-    }
+export default class Form extends Component {
 
     updateInput = (event) => {
         this.props.onChange(event.target.value)
@@ -14,16 +9,17 @@ export default class Form extends React.Component {
     render() {
         return (
 
-                <form style={{ background: this.props.rgb }}>
-                    <input
-                        className="hex-field js-hex-field"
-                        type="text"
-                        placeholder="#000000"
-                        onChange={this.updateInput}
-                        value={this.props.value}>
-                    </input>
-                <p className="message js-message">{this.props.error ? 'Ошибка' : this.props.rgb}</p>
-                </form>
+            <form style={{background: this.props.rgb}}>
+                <input
+                    className="hex-field js-hex-field"
+                    type="text"
+                    placeholder="#000000"
+                    onChange={this.updateInput}
+                    value={this.props.value}/>
+                <p className="message js-message">
+                    {this.props.error ? 'Ошибка' : this.props.rgb}
+                </p>
+            </form>
         )
     }
 }

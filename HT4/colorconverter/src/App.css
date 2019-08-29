@@ -15,7 +15,6 @@ form {
   transition: background .4s ease-in-out;
   width: 100vw;
   padding: 0;
-
 }
 
 form.warning {
@@ -47,9 +46,7 @@ form.warning {
   -moz-user-select: all; /* Firefox 43+ */
   -ms-user-select: all; /* No support yet */
   user-select: all;
-   font-size: 2rem;
-  text-align: center;
-
+   font-size: 1.1rem;
 }
 .app {
   background: #00bcd4;
