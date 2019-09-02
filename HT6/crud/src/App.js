@@ -2,16 +2,15 @@ import React from 'react';
 
 import './App.css';
 
-import Crud from "./Component/Crud";
-//import Cruds from "./Component/Cruds";
-
+//import Crud from "./Component/Crud";
+import Cruds from "./Component/Cruds";
 
 function App()  {
 
         return (
             <div className="App">
-               <Crud/>
 
+<Cruds/>
             </div>
         );
     }

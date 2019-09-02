@@ -7,6 +7,7 @@ export default class Crud extends Component {
             dates: []
         }
     }
+
     componentDidMount() {
         const dates = this.state.dates;
         this.setState({dates});

@@ -1,40 +1,39 @@
-import React, { Component } from 'react';
-
-
+import React, {Component} from 'react';
 
 
 export default class Cruds extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            dates: []
+            dates: [],
+            content: ''
         }
     }
-    componentDidMount() {
-        const dates = this.state.dates;
-        const data = {dates};
-        fetch(process.env.REACT_APP_NOTES_URL, {
-            method: 'POST', // or 'PUT'
-            body: JSON.stringify(data), // data can be `string` or {object}!
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        }).then(res => res.json())
-            .then(response => console.log('Success:', JSON.stringify(response)))
-            .catch(error => console.error('Error:', error));
 
+    fetchNotes = () => {
+        this.setState({...this.state, isFetching: true})
+        fetch(process.env.REACT_APP_NOTES_URL)
+            .then(response => response.json())
+            .then(result => this.setState({
+                content: result,
+                isFetching: false
+            }))
+            .catch(e => console.log(e));
+    };
+
+    componentDidMount() {
+        this.fetchNotes();
     }
+
     onSubmit = (e) => {
         e.preventDefault();
-        const dates = this.state.dates;
+        const content = this.state.content;
         const note = this.refs.note.value;
         const data = {note};
-
-        dates.push(data);
+        content.push(data);
         this.setState({
-            dates: dates,
+            dates: content,
         });
-
     };
     noteRemove = (i) => {
         const dates = this.state.dates;
@@ -45,34 +44,51 @@ export default class Cruds extends Component {
         this.refs.myForm.reset();
         this.refs.note.focus();
     };
-render() {
-    const dates = this.state.dates;
-    return (
-        <div>
-            <div className="top">
-                <div className="for-refresh"><h2>NOTES</h2>
-                    <button className="btn btn-refresh" >&#8635;</button>
-                </div>
-                <ul className="list">
-                    {dates.map((data, i) =>
-                        <li key={i} className="news">{i + 1}. {data.note}
-                            <button onClick={() => this.noteRemove(i)} className="btn btn-remove">&#10006;</button>
-                        </li>
-                    )}
-                </ul>
-            </div>
-            <div className="window">
-                <span>New note:</span>
-                <form ref="myForm" onSubmit={this.onSubmit}>
-                    <label>
-                        <textarea name="note" ref="note" onChange={this.handleChange}/>
-                    </label>
-                    <button className="btn btn-submit" onClick={(e) => this.onSubmit(e)}
-                            type="submit">&#10148;</button>
-                </form>
-            </div>
 
-        </div>
-    );
-}
+    componentDidUpdate(prevProps, prevState) {
+        if (this.props.dates !== prevProps.dates) {
+            this.updateNotes(this.props.dates);
+        }
+    }
+
+    updateNotes(dates) {
+        this.content = dates;
+    }
+
+    componentWillUnmount() {
+        window.noteRemove('fetchNotes', this.dates);
+    }
+
+    render() {
+        const dates = this.state.dates;
+        const title = 'NOTES!';
+        return (
+            <div>
+                <div className="top">
+                    <div className="for-refresh"><h2>{title}</h2>
+                        <button className="btn btn-refresh" onClick={(e) => this.updateNotes(e)}>&#8635;</button>
+                    </div>
+                    {this.state.isFetching ? 'Fetching notes...' : ''}
+                    <ul className="list">
+                        {dates.map((data, i) =>
+                            <li key={i} className="news">{i + 1}. {data.note}
+                                <button onClick={() => this.noteRemove(i)} className="btn btn-remove">&#10006;</button>
+                            </li>
+                        )}
+                    </ul>
+                </div>
+                <div className="window">
+                    <span>New note:</span>
+                    <form ref="myForm" onSubmit={this.onSubmit}>
+                        <label>
+                            <textarea name="note" ref="note" onChange={this.handleChange}/>
+                        </label>
+                        <button className="btn btn-submit" onClick={(e) => this.onSubmit(e)}
+                                type="submit">&#10148;</button>
+                    </form>
+                </div>
+
+            </div>
+        );
+    }
 }
