@@ -20,7 +20,7 @@ class Table extends Component {
                     </tr>
                     </thead>
                     <tbody>
-                    {items.map((item, i) => {
+                    {items.reverse().map((item, i) => {
                         return (
 
                             <tr key={i}>

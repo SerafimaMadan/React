@@ -16,6 +16,7 @@ class App extends Component {
         }
     };
 
+
     handleFormSubmit = (e) => {
         e.preventDefault();
         this.setState(prevState => {
@@ -36,6 +37,7 @@ class App extends Component {
                 }
         });
     };
+
 
     handleInputChange = (e) => {
         const {name, value} = e.target;
@@ -65,7 +67,7 @@ class App extends Component {
                       handleInputChange={this.handleInputChange}
                       newDate={this.state.date}
                       newWay={this.state.way}/>
-                <Table items={[...this.state.items].sort((o1, o2) => (new Date(o1.date) + new Date(o2.date)))}
+                <Table items={[...this.state.items].sort((o1, o2) => (new Date(o1.date) - new Date(o2.date)))}
                        onRemoveItem={this.onRemoveItem}/>
             </div>
         );

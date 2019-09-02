@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Form from "./Form";
 
 export default class Converters extends Component {
-
     constructor(props) {
         super(props);
         this.state = {
@@ -10,14 +9,12 @@ export default class Converters extends Component {
             rgb: '',
         };
     }
-
     hexToRGB = (hex) => {
         const r = Number.parseInt(hex.slice(1, 3), 16);
         const g = Number.parseInt(hex.slice(3, 5), 16);
         const b = Number.parseInt(hex.slice(5, 7), 16);
         return `rgb(${r}, ${g}, ${b})`
     };
-
     isValidHexColor = (hex) => {
         const validSymbols = '#[0-9a-fA-F]{6}';
         if (!hex.startsWith(validSymbols)) {

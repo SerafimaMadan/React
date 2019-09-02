@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-//import axios from 'axios';
-
 export default class Crud extends Component {
     constructor(props) {
         super(props);
@@ -16,7 +14,6 @@ export default class Crud extends Component {
         this.refs.note.focus();
         console.log(dates)
     }
-
     onSubmit = (e) => {
         e.preventDefault();
         const dates = this.state.dates;
@@ -33,15 +30,7 @@ export default class Crud extends Component {
                 this.setState({dates: dates});
                 console.log(this.state);
             })
-       //        axios.post(`/notes`, {dates})
-      //      .then(response => response.json)
-       //     .then(res => {
-      //          console.log(res);
-       //         console.log(res.data);
-      //          this.setState({dates: res.data});
-      //          console.log(this.state);
-      //      })
-   };
+       };
 
     noteRemove = (i) => {
         const dates = this.state.dates;
