@@ -5,86 +5,122 @@ export default class Cruds extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            dates: [],
-            content: ''
-        }
+            notes: [],
+            content: '',
+            isFetching: false,
+        };
+        this.noteRef = React.createRef();
     }
 
     fetchNotes = () => {
-        this.setState({...this.state, isFetching: true})
+        this.setState({isFetching: true});
         fetch(process.env.REACT_APP_NOTES_URL)
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(response.statusText);
+                }
+                return response.json();
+            })
             .then(result => this.setState({
-                content: result,
+                notes: result,
                 isFetching: false
             }))
-            .catch(e => console.log(e));
+            .catch(e => {
+                console.log(e);
+                this.setState({isFetching: false});
+            });
+    };
+
+    createNote = (note) => {
+        this.setState({isFetching: true});
+        fetch(process.env.REACT_APP_NOTES_URL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(note)
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(response.statusText);
+                }
+                this.setState({content: '', isFetching: false})
+                this.noteRef.current.focus();
+                this.fetchNotes();
+            })
+            .catch(e => {
+                console.log(e);
+                this.setState({isFetching: false});
+            });
+    };
+
+    removeNote = (id) => {
+        this.setState({isFetching: true});
+        fetch(`${process.env.REACT_APP_NOTES_URL}/${id}`, {
+            method: 'DELETE',
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(response.statusText);
+                }
+                this.setState({isFetching: false})
+                this.fetchNotes();
+            })
+            .catch(e => {
+                console.log(e);
+                this.setState({isFetching: false});
+            });
     };
 
     componentDidMount() {
         this.fetchNotes();
+        this.noteRef.current.focus();
     }
 
-    onSubmit = (e) => {
+    handleChange = (e) => {
+        const {value} = e.target;
+        this.setState({content: value});
+    };
+
+    handleSubmit = (e) => {
         e.preventDefault();
-        const content = this.state.content;
-        const note = this.refs.note.value;
-        const data = {note};
-        content.push(data);
-        this.setState({
-            dates: content,
-        });
-    };
-    noteRemove = (i) => {
-        const dates = this.state.dates;
-        dates.splice(i, 1);
-        this.setState({
-            dates: dates
-        });
-        this.refs.myForm.reset();
-        this.refs.note.focus();
+        this.createNote({content: this.state.content});
+         };
+
+    handleRemove = (id) => {
+        this.removeNote(id);
     };
 
-    componentDidUpdate(prevProps, prevState) {
-        if (this.props.dates !== prevProps.dates) {
-            this.updateNotes(this.props.dates);
-        }
-    }
-
-    updateNotes(dates) {
-        this.content = dates;
-    }
-
-    componentWillUnmount() {
-        window.noteRemove('fetchNotes', this.dates);
-    }
+    handleUpdate = (e) => {
+        this.fetchNotes();
+    };
 
     render() {
-        const dates = this.state.dates;
         const title = 'NOTES!';
+        const {notes, content, isFetching} = this.state;
         return (
             <div>
                 <div className="top">
                     <div className="for-refresh"><h2>{title}</h2>
-                        <button className="btn btn-refresh" onClick={(e) => this.updateNotes(e)}>&#8635;</button>
+                        <button className="btn btn-refresh" onClick={this.handleUpdate}>&#8635;</button>
                     </div>
-                    {this.state.isFetching ? 'Fetching notes...' : ''}
+                    {isFetching ? 'Fetching notes...' : ''}
                     <ul className="list">
-                        {dates.map((data, i) =>
-                            <li key={i} className="news">{i + 1}. {data.note}
-                                <button onClick={() => this.noteRemove(i)} className="btn btn-remove">&#10006;</button>
+                        {notes.map(o =>
+                            <li key={o.id}>{o.content}
+                                <button onClick={() => this.handleRemove(o.id)}
+                                        className="btn btn-remove">&#10006;</button>
                             </li>
                         )}
                     </ul>
                 </div>
                 <div className="window">
                     <span>New note:</span>
-                    <form ref="myForm" onSubmit={this.onSubmit}>
+                    <form onSubmit={this.handleSubmit}>
                         <label>
-                            <textarea name="note" ref="note" onChange={this.handleChange}/>
+                            <textarea name="note" ref={this.noteRef} value={content} onChange={this.handleChange}/>
                         </label>
-                        <button className="btn btn-submit" onClick={(e) => this.onSubmit(e)}
-                                type="submit">&#10148;</button>
+                        <button className="btn btn-submit" type="submit">&#10148;</button>
                     </form>
                 </div>
 

@@ -9,9 +9,7 @@ const app = new Koa();
 app.use(cors());
 app.use(koaBody({json: true}));
 
-const notes = [{
-
-}];
+const notes = [];
 let nextId = 1;
 
 const router = new Router();
@@ -36,6 +34,6 @@ router.delete('/notes/:id', async(ctx, next) => {
 
 app.use(router.routes()).use(router.allowedMethods());
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 7777;
 const server = http.createServer(app.callback());
 server.listen(port, () => console.log('server started'));

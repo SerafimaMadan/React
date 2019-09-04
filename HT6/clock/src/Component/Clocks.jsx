@@ -14,9 +14,8 @@ export default class Clocks extends Component {
 
 //функция для посекундного отсчёта
     componentDidMount() {
-        const self = this;
-        this.interval = setInterval(function () {
-            self.state.time = moment();
+         this.interval = setInterval(function () {
+            state.time = moment();
             self.setState({time: self.state.time})
         }, 1000);
     }
