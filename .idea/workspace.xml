@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2457bbf-4c5b-4d43-a3fa-2a80fcd5f1ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT6/clock/src/Component/Clock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT6/clock/src/Component/Clock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT6/clock/src/Component/Clocks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT6/clock/src/Component/Clocks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT6/crud/backend/server.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT6/crud/backend/server.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT6/crud/src/Component/Cruds.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT6/crud/src/Component/Cruds.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="b2457bbf-4c5b-4d43-a3fa-2a80fcd5f1ca" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,10 +21,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HT6/crud/src/Component/Cruds.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
+            <state relative-caret-position="1479">
               <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
             </state>
           </provider>
@@ -64,6 +58,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HT6/crud/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -297,12 +300,12 @@
       <workItem from="1567082228302" duration="16019000" />
       <workItem from="1567170657333" duration="1944000" />
       <workItem from="1567423634383" duration="15148000" />
-      <workItem from="1567590228768" duration="4409000" />
+      <workItem from="1567590228768" duration="4809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="325697000" />
+    <option name="totallyTimeSpent" value="326097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -333,13 +336,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HT6/crud/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HT6/crud/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -657,13 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT6/crud/backend/api.rest">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/crud/backend/api.rest">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -681,10 +670,10 @@
     <entry file="file://$PROJECT_DIR$/HT6/crud/backend/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/crud/backend/server.js">
+    <entry file="file://$USER_HOME$/Downloads/crud/src/Component/Cruds.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="68">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="3" selection-end-line="132" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -695,10 +684,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/crud/src/Component/Cruds.jsx">
+    <entry file="file://$USER_HOME$/Downloads/crud/backend/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="3" selection-end-line="132" selection-end-column="1" />
+        <state relative-caret-position="13">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -711,8 +700,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HT6/crud/src/Component/Cruds.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
+        <state relative-caret-position="1479">
           <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT6/crud/backend/api.rest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT6/crud/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
