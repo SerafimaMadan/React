@@ -66,7 +66,16 @@
         <entry file="file://$PROJECT_DIR$/HT6/crud/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/crud/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -88,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HT5/cards/src/Components/ItemCardThree.jsx" />
         <option value="$PROJECT_DIR$/HT5/cards/src/Components/Card.jsx" />
         <option value="$PROJECT_DIR$/HT5/cards/src/Components/ItemCard.jsx" />
         <option value="$PROJECT_DIR$/HT5/cards/src/App.js" />
@@ -139,6 +147,7 @@
         <option value="$USER_HOME$/Downloads/crud/backend/package.json" />
         <option value="$PROJECT_DIR$/HT6/crud/backend/server.jsx" />
         <option value="$PROJECT_DIR$/HT6/crud/src/Component/Cruds.jsx" />
+        <option value="$PROJECT_DIR$/HT6/crud/.env" />
       </list>
     </option>
   </component>
@@ -300,18 +309,17 @@
       <workItem from="1567082228302" duration="16019000" />
       <workItem from="1567170657333" duration="1944000" />
       <workItem from="1567423634383" duration="15148000" />
-      <workItem from="1567590228768" duration="4809000" />
+      <workItem from="1567590228768" duration="5213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="326097000" />
+    <option name="totallyTimeSpent" value="326501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984375" visible="true" weight="0.13432837" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984375" visible="true" weight="0.13432837" />
       <window_info id="Structure" order="1" sideWeight="0.5015625" side_tool="true" weight="0.104477614" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -324,7 +332,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.44725275" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.44725275" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -336,13 +344,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HT6/crud/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HT4/colorconverter/src/Components/Сonverter.jsx" />
     <entry file="file://$PROJECT_DIR$/HT4/colorconverter/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -712,10 +713,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/crud/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HT6/crud/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="47" />
         </state>
       </provider>
     </entry>
