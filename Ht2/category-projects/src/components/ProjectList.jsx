@@ -3,7 +3,6 @@ import React from 'react';
 
 const ProjectList = props => {
 
-
     const {projects} = props;
     return (
 
@@ -11,7 +10,6 @@ const ProjectList = props => {
             {projects.map((project, i) =>
                 <div key={i}>
                     <img
-
                          src={project.imageType}
                         alt={project.category}
                     />

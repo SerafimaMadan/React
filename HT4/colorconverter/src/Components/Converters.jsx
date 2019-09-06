@@ -7,8 +7,10 @@ export default class Converters extends Component {
         this.state = {
             input: '',
             rgb: '',
+            error: ''
         };
     }
+
     hexToRGB = (hex) => {
         const r = Number.parseInt(hex.slice(1, 3), 16);
         const g = Number.parseInt(hex.slice(3, 5), 16);
@@ -16,13 +18,12 @@ export default class Converters extends Component {
         return `rgb(${r}, ${g}, ${b})`
     };
     isValidHexColor = (hex) => {
-        const validSymbols = '#[0-9a-fA-F]{6}';
-        if (!hex.startsWith(validSymbols)) {
+        const validSymbols = '/#[0-9a-fA-F]{6}/';
+        if (!validSymbols.match(hex)) {
             return false;
         }
-        return hex.slice(1).split('').some(o => !validSymbols.includes(o));
+        return hex.slice(1).split('').match(validSymbols.includes(hex));
     };
-
     updateInputState = (event) => {
         console.log(event);
         this.setState({
@@ -36,7 +37,7 @@ export default class Converters extends Component {
         return (
             <div className="app">
                 <Form
-                    className={this.state.isWarning ? 'warning' : ''}
+                    className={this.state.error ? 'warning' : ''}
                     onChange={this.updateInputState}
                     error={this.state.error}
                     rgb={this.state.rgb}/>
