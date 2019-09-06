@@ -22,7 +22,7 @@ export default class Converters extends Component {
         if (!validSymbols.match(hex)) {
             return false;
         }
-        return hex.slice(1).split('').match(validSymbols.includes(hex));
+        return hex.slice(1).split('').some(o => !validSymbols.includes(o));
     };
     updateInputState = (event) => {
         console.log(event);

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2457bbf-4c5b-4d43-a3fa-2a80fcd5f1ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HT4/colorconverter/src/Components/Converters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT4/colorconverter/src/Components/Converters.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ht2/category-projects/src/components/ProjectList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Ht2/category-projects/src/components/ProjectList.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -28,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HT4/colorconverter/src/Components/Converters.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="306">
+              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -140,7 +138,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="449" />
     <option name="y" value="352" />
     <option name="width" value="720" />
@@ -312,12 +310,12 @@
       <workItem from="1567423634383" duration="15148000" />
       <workItem from="1567590228768" duration="11851000" />
       <workItem from="1567679336216" duration="9418000" />
-      <workItem from="1567764200874" duration="11620000" />
+      <workItem from="1567764200874" duration="12330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354177000" />
+    <option name="totallyTimeSpent" value="354887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -672,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HT4/colorconverter/src/Components/Converters.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="306">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
