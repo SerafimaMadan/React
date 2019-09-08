@@ -18,11 +18,10 @@ export default class Converters extends Component {
         return `rgb(${r}, ${g}, ${b})`
     };
     isValidHexColor = (hex) => {
-        const validSymbols = '/#[0-9a-fA-F]{6}/';
-        if (!validSymbols.match(hex)) {
-            return false;
-        }
-        return hex.slice(1).split('').some(o => !validSymbols.includes(o));
+        // regex записываются без кавычек в этом формате
+        const validSymbols = /#[0-9a-fA-F]{6}/;
+        // match избыточен, достаточно обычного `test`
+        return validSymbols.test(hex);
     };
     updateInputState = (event) => {
         console.log(event);
