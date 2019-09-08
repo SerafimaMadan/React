@@ -17,15 +17,13 @@ export default class Converters extends Component {
         const b = Number.parseInt(hex.slice(5, 7), 16);
         return `rgb(${r}, ${g}, ${b})`
     };
+
     isValidHexColor = (hex) => {
-        const validSymbols = '/#[0-9a-fA-F]{6}/';
-        if (!validSymbols.match(hex)) {
-            return false;
-        }
-        return hex.slice(1).split('').some(o => !validSymbols.includes(o));
+        const validSymbols = /#[0-9a-fA-F]{6}/;
+        return validSymbols.test(hex);
     };
+
     updateInputState = (event) => {
-        console.log(event);
         this.setState({
             input: event,
             rgb: event.length === 7 ? this.hexToRGB(event) : '',
@@ -37,10 +35,11 @@ export default class Converters extends Component {
         return (
             <div className="app">
                 <Form
-                    className={this.state.error ? 'warning' : ''}
                     onChange={this.updateInputState}
+                    value={this.state.input}
                     error={this.state.error}
-                    rgb={this.state.rgb}/>
+                    rgb={this.state.rgb}
+                   />
             </div>
         )
     }

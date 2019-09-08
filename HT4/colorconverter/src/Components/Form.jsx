@@ -17,7 +17,7 @@ export default class Form extends Component {
                     onChange={this.updateInput}
                     value={this.props.value}/>
                 <p className="message js-message">
-                    {this.props.error ? 'Ошибка' : this.props.rgb}
+                    {this.props.error ? this.props.rgb : 'Ошибка'}
                 </p>
             </form>
         )

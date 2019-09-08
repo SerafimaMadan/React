@@ -17,10 +17,12 @@ form {
   padding: 0;
 }
 
-form.warning {
+form. warning {
   background: #e74c3c;
 }
-
+form.error {
+  background: #e74c3c;
+}
 .hex-field {
   box-sizing: border-box;
   width: 180px;
