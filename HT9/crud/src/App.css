@@ -31,3 +31,36 @@
     transform: rotate(360deg);
   }
 }
+.card {
+  width: 30rem;
+  height: 15rem;
+  margin: 1rem;
+  padding: 0.5rem 2rem;
+  border: 1px solid #111111;
+  background-color: #95efee;
+}
+
+.button {
+  margin: 30px;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+.close {
+  text-align: right;
+  font-size: 2rem;
+  user-select: none;
+}
+
+.author {
+  color: #a94442;
+  font-size: 1.5rem;
+}
+
+.avatar {
+  width: 5rem;
+}
+
+.close-button {
+  cursor: pointer;
+}
