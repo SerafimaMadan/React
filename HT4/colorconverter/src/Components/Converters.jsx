@@ -35,6 +35,7 @@ export default class Converters extends Component {
         return (
             <div className="app">
                 <Form
+                    className={this.state.error ? 'warning' : ''}
                     onChange={this.updateInputState}
                     value={this.state.input}
                     error={this.state.error}

@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useState} from 'react';
 import './App.css';
 import List from "./Components/List";
 
+
 function App() {
-  return (
+
+    const [info, setInfo] = useState({ id: null });
+
+
+    return (
     <div className="App">
 <List/>
+
     </div>
   );
 }

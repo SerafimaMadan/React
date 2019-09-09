@@ -7,26 +7,24 @@
   clear: left;
   margin: 50px;
 }
-.rectangle li{
+.rectangle .list-name{
   padding: 10px 30px;
   border: 1px solid grey;
   border-radius: 2px;
   display: block;
 }
-.rectangle a {
+.rectangle .list-name {
   position: relative;
   display: block;
-  padding: .4em .4em .4em .8em;
-  margin: .5em 0 .5em 2.5em;
   color: #444;
   text-decoration: none;
   transition: all .3s ease-out;
 }
-.rectangle a:hover {
+.rectangle .list-name:hover {
   cursor: pointer;
 }
 
-.rectangle a:after {
+.rectangle .list-name:after {
   position: absolute;
   content: "";
   border: .5em solid transparent;
@@ -35,7 +33,24 @@
   margin-top: -.5em;
   transition: all .3s ease-out;
 }
-.rectangle a:hover:after {
+.rectangle .list-name:hover:after {
   left: -.5em;
   border-left-color: #9097A2;
+}
+
+.chosen {
+  background-color: #0000FF;
+  color: white;
+}
+.list-name {
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.list-name-image {
+  width: 300px;
+  height: 300px;
 }
