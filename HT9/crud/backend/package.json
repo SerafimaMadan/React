@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "forever server.jsx",
+    "watch": "forever -w server.jsx"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^1.0.0",
+    "koa": "^2.8.1",
+    "koa-body": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6"
+  }
+}
