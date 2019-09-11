@@ -16,7 +16,7 @@ export default function Details({info}) {
                 .then(d => {
                     setData(d);
                 })
-                .catch(function(error) {
+                .catch(function (error) {
                     console.log(error);
                 });
         }

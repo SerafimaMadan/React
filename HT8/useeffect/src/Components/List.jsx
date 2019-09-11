@@ -10,16 +10,17 @@ export default function List({handleInfo}) {
         fetch("https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/hooks-context/use-effect/data/users.json")
             .then(response => response.json())
             .then(data => {
-                    setName(data)
-                }
-            )
-    }, []);
+                setName(data)
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
 
+    }, []);
     function handleChoice(id, name) {
         setChoice(id);
         handleInfo(id, name.name);
     }
-
     return (
         <div>
             <div className="rectangle">
