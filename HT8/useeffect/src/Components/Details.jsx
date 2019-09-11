@@ -1,41 +1,44 @@
 import React, {useEffect, useState} from 'react';
 
 
-export default function Details(info) {
-    const [items, setItems] = useState(null);
+export default function Details({info}) {
+    const [data, setData] = useState(null);
+
     useEffect(() => {
         if (!info.id) return;
-        const currentItems = items;
+        const currentData = data;
 
-        if (currentItems) {
-            return setItems(currentItems);
+        if (currentData) {
+            return setData(currentData);
         } else {
-            fetch("https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/hooks-context/use-effect/data/{id}.json, ")
-                .then(response => response.json())
-                .then(items => {
-                        setItems(items)
-                    }
-                )
-                .catch(function (error) {
+            fetch("https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/hooks-context/use-effect/data/{id}.json")
+                .then(res => res.data)
+                .then(d => {
+                    setData(d);
+                })
+                .catch(function(error) {
                     console.log(error);
                 });
         }
-    }, [info.id, items]);
-    console.log('return');
-    if (!items) return null;
+    }, [info.id, data]);
 
+    if (!data) return null;
 
-};
-
-return (
-    <div className="list-names">
-        <img
-            className="list-name-image"
-            src={items.avatar + Math.random().toString().slice(2, 3)}
-            alt="avatar"
-        />
-        <div>city: {items.details.city} </div>
-        <div>company: {items.details.company} </div>
-        <div>position: {items.details.position} </div>
-    </div>
-);
+    return (
+        <div className="list-names">
+            <img
+                className="list-name-image"
+                src={
+                    data.avatar +
+                    Math.random()
+                        .toString()
+                        .slice(2, 3)
+                }
+                alt="pravatar"
+            />
+            <div>city: {data.details.city} </div>
+            <div>company: {data.details.company} </div>
+            <div>position: {data.details.position} </div>
+        </div>
+    );
+}
