@@ -2,9 +2,19 @@ import React from 'react';
 import axios from "axios";
 
 export default function Card({post}) {
+    const postPage = '/:id';
 
     const handleRemove = (id) => {
-       axios.delete(`http://localhost:7777/posts/id`)
+        axios.delete(`http://localhost:7777/posts` + postPage)
+            .then(response => {
+                this.setState({
+                    post: response.data
+                });
+                console.log(response.data)
+            })
+            .catch(error => {
+                console.log(error)
+            })
     };
     return (
         <div className="card">
@@ -15,7 +25,7 @@ export default function Card({post}) {
                 Author: Serafima
             </div>
             <div>
-               {post.created} ago
+                {post.created} ago
             </div>
             <h1>
                 {post.content}

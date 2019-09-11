@@ -49,7 +49,9 @@ function App() {
                         component={() => data.map((post, i) =>
                             <Card
                                 post={post}
-                                key={i}/>)}
+                                key={i}
+                            />)
+                        }
                     />
                 </Switch>
             </Router>
