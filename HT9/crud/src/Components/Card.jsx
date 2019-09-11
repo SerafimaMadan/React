@@ -6,13 +6,7 @@ export default function Card({post}) {
 
     const handleRemove = (id) => {
         axios.delete(`http://localhost:7777/posts` + postPage)
-            .then(response => {
-                this.setState({
-                    post: response.data
-                });
-                console.log(response.data)
-            })
-            .catch(error => {
+                       .catch(error => {
                 console.log(error)
             })
     };
