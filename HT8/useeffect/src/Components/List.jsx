@@ -26,8 +26,8 @@ export default function List({handleInfo}) {
                 {name.map(o => (
                     <Person
                         name={o.name}
-                        handleChosen={id => handleChoice(id, o)}
-                        isChosen={o.id === choice}
+                        handleInfo={id => handleChoice(id, o)}
+                        isChoice={o.id === choice}
                         key={o.id}
                         id={o.id}
                     />

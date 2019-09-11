@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 
 
 export default function Details({info}) {
-    const [data, setData] = useState(null);
+    const [data, setData] = useState(0);
 
     useEffect(() => {
         if (!info.id) return;
@@ -34,7 +34,7 @@ export default function Details({info}) {
                         .toString()
                         .slice(2, 3)
                 }
-                alt="pravatar"
+                alt="avatar"
             />
             <div>city: {data.details.city} </div>
             <div>company: {data.details.company} </div>
