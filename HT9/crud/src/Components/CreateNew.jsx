@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
+import axios from 'axios';
 
 export default function Create() {
     const [postText, setPostText] = useState('');
@@ -11,18 +12,25 @@ export default function Create() {
     };
 
     const handleClick = () => {
-        const postUrl = 'http://localhost:7777' + postPage;
         const newNote = {id: 0, content: postText};
-
-        fetch.post(postUrl, newNote);
+        axios.post('http://localhost:7777' + postPage, newNote);
     };
 
     return (
         <div className="cardCreate">
-            <h1>Create post</h1>
-            <textarea rows="10" cols="50" onChange={handleChange}/>
-            <Link to="/posts" onClick={handleClick}>
-                <button className="button">Publish</button>
+            <h1>
+                Create post
+            </h1>
+            <textarea
+                rows="10"
+                cols="50"
+                onChange={handleChange}/>
+            <Link
+                to="/posts"
+                onClick={handleClick}>
+                <button className="button">
+                    Publish
+                </button>
             </Link>
         </div>
     );

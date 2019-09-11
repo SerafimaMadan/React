@@ -8,16 +8,6 @@ const app = new Koa();
 
 app.use(cors());
 app.use(koaBody({json: true}));
-const http = require('http');
-const Koa = require('koa');
-const Router = require('koa-router');
-const cors = require('koa2-cors');
-const koaBody = require('koa-body');
-
-const app = new Koa();
-
-app.use(cors());
-app.use(koaBody({json: true}));
 
 let posts = [];
 let nextId = 1;
