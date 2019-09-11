@@ -2,12 +2,9 @@ import React from 'react';
 import axios from "axios";
 
 export default function Card({post}) {
-    const postPage = '/posts';
 
-
-    const handleRemove = () => {
-        const newNote = {id: 0};
-        axios.post('http://localhost:7777' + postPage, newNote);
+    const handleRemove = (id) => {
+       axios.delete(`http://localhost:7777/posts/id`)
     };
     return (
         <div className="card">
