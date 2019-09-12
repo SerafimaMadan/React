@@ -7,6 +7,7 @@ export default function EditPost({match}) {
     const id = match.params.id;
     useEffect(() => {
         axios.get('http://localhost:7777/posts' + postPage)
+            .then(response => response.json())
             .then(res => res.data.find(d => d.id === id))
             .then(p => setPost(p.id))
     }, [id]);

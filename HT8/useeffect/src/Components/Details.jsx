@@ -11,10 +11,10 @@ export default function Details({info}) {
         if (currentData) {
             return setData(currentData);
         } else {
-            fetch("https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/hooks-context/use-effect/data/{id}.json")
-                .then(res => res.data)
-                .then(d => {
-                    setData(d);
+            fetch("https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/hooks-context/use-effect/data/" + info.id + ".json")
+                .then(response => response.json())
+                .then(result => {
+                    setData(result);
                 })
                 .catch(function (error) {
                     console.log(error);
@@ -29,10 +29,7 @@ export default function Details({info}) {
             <img
                 className="list-name-image"
                 src={
-                    data.avatar +
-                    Math.random()
-                        .toString()
-                        .slice(2, 3)
+                    data.avatar
                 }
                 alt="avatar"
             />

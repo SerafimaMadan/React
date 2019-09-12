@@ -6,13 +6,16 @@ import Details from "./Components/Details";
 
 function App() {
 
-    const [info] = useState({ id: null });
+    const [info, setInfo] = useState({ id: null });
 
+    function handleInfo(id, name) {
+        setInfo({ id, name });
+    }
 
     return (
     <div className="App">
-<List/>
-        {info.id ? <Details info={info} /> : null}
+<List handleInfo={handleInfo}/>
+        {info.id ? <Details info={info}/> : null}
     </div>
   );
 }
