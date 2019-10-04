@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 
+let prevId = null;
 
 export default function Details({info}) {
     const [data, setData] = useState(0);
@@ -8,9 +9,10 @@ export default function Details({info}) {
         if (!info.id) return;
         const currentData = data;
 
-        if (currentData) {
+        if (currentData && (prevId === info.id)) {
             return setData(currentData);
         } else {
+            prevId = info.id;
             fetch("https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/hooks-context/use-effect/data/" + info.id + ".json")
                 .then(response => response.json())
                 .then(result => {
@@ -29,7 +31,7 @@ export default function Details({info}) {
             <img
                 className="list-name-image"
                 src={
-                    data.avatar
+                    data.avatar + prevId
                 }
                 alt="avatar"
             />

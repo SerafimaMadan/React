@@ -34,7 +34,7 @@ export default class App extends Component {
     removeClick(zone) {
         const updateClocks = this.state.clocks;
         const index = updateClocks.findIndex(take => take.Timezone === zone);
-        updateClocks.splice(index, 1)
+        updateClocks.splice(index, 1);
         this.setState({
             clocks: updateClocks
         });

@@ -38,6 +38,10 @@
   border-left-color: #9097A2;
 }
 
+div.list-name:visited {
+  background-color: #0000FF;
+  color: white;
+}
 .chosen {
   background-color: #0000FF;
   color: white;
@@ -61,4 +65,7 @@
 .list-name-image {
 width: 300px;
 height: 300px;
+}
+.second{
+  border: 1px solid red;
 }

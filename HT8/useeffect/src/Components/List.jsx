@@ -15,24 +15,33 @@ export default function List({handleInfo}) {
             .catch(function (error) {
                 console.log(error);
             });
-
     }, []);
+
     function handleChoice(id, name) {
         setChoice(id);
         handleInfo(id, name.name);
+
     }
+
     return (
-        <div>
-            <div className="rectangle">
-                {name.map(o => (
-                    <Person
-                        name={o.name}
-                        handleInfo={id => handleChoice(id, o)}
-                        isChoice={o.id === choice}
-                        key={o.id}
-                        id={o.id}
-                    />
-                ))}
-            </div>
+        <div className="rectangle">
+            {name.map(o => (
+                <Person
+                    name={o.name}
+                    handleInfo={id => handleChoice(id, o)}
+                    isChoice={o.id === choice}
+                    key={o.id}
+                    id={o.id}
+                />
+            ))}
+<div className="second">
+            {name.map((o, i) => (
+                <div
+                    key={i}
+                    onClick={() => handleChoice(o.id, o.name)}
+                    className={`list-name${o.info ? 'chosen' : ''}`}>
+                    {o.name}
+                </div>))}</div>
+
         </div>)
 };
