@@ -2,13 +2,15 @@ import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import axios from 'axios';
 
-export default function Create() {
+export default function CreateNew() {
     const [postText, setPostText] = useState('');
     const postPage = '/posts';
 
     const handleChange = (e) => {
         const text = e.target.value;
+        e.preventDefault();
         setPostText(text);
+
     };
 
     const handleClick = () => {

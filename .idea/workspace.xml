@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b2457bbf-4c5b-4d43-a3fa-2a80fcd5f1ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT5/cards/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT5/cards/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT6/clock/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT6/clock/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT8/useeffect/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/HT8/useeffect/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT8/useeffect/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT8/useeffect/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT8/useeffect/src/Components/Details.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT8/useeffect/src/Components/Details.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HT8/useeffect/src/Components/List.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT8/useeffect/src/Components/List.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT8/useeffect/src/Components/Person.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT8/useeffect/src/Components/Person.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT9/crud/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/HT9/crud/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT9/crud/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HT9/crud/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT9/crud/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT9/crud/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT9/crud/src/Components/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT9/crud/src/Components/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT9/crud/src/Components/CreateNew.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT9/crud/src/Components/CreateNew.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HT9/crud/src/Components/EditPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/HT9/crud/src/Components/EditPost.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -36,52 +35,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT8/useeffect/src/Components/Details.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT8/useeffect/src/Components/Person.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HT8/useeffect/src/App.css">
+        <entry file="file://$PROJECT_DIR$/HT9/crud/src/Components/Card.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT8/useeffect/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="221">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HT8/useeffect/src/Components/List.jsx">
+        <entry file="file://$PROJECT_DIR$/HT9/crud/src/Components/CreateNew.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+            <state relative-caret-position="-51">
+              <caret column="21" selection-start-column="12" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HT9/crud/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="39" column="38" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="40" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HT9/crud/src/Components/EditPost.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HT4/colorconverter/src/Components/Converters.jsx" />
-        <option value="$PROJECT_DIR$/HT8/usejsonfetch/src/index.js" />
         <option value="$PROJECT_DIR$/HT8/usejsonfetch/public/index.html" />
         <option value="$PROJECT_DIR$/HT8/usejsonfetch/Backend/.foreverignore" />
         <option value="$PROJECT_DIR$/HT6/crud/backend/server.jsx" />
@@ -124,10 +115,7 @@
         <option value="$PROJECT_DIR$/HT9/crud/backend/package.json" />
         <option value="$PROJECT_DIR$/HT9/crud/src/Components/FormatDate.jsx" />
         <option value="$PROJECT_DIR$/HT9/crud/src/Components/DateTime.jsx" />
-        <option value="$PROJECT_DIR$/HT9/crud/src/Components/CreateNew.jsx" />
         <option value="$PROJECT_DIR$/HT9/crud/src/App.css" />
-        <option value="$PROJECT_DIR$/HT9/crud/src/App.js" />
-        <option value="$PROJECT_DIR$/HT9/crud/src/Components/Card.jsx" />
         <option value="$PROJECT_DIR$/HT10/api/src/App.js" />
         <option value="$PROJECT_DIR$/HT10/api/public/index.html" />
         <option value="$PROJECT_DIR$/HT10/editing/public/index.html" />
@@ -138,14 +126,19 @@
         <option value="$PROJECT_DIR$/HT10/editing/src/Components/ServiceList.js" />
         <option value="$PROJECT_DIR$/HT10/editing/src/Components/ServiceListClassBased.js" />
         <option value="$PROJECT_DIR$/HT10/editing/src/Components/ServiceAddClassBased.js" />
-        <option value="$PROJECT_DIR$/HT9/crud/src/Components/EditPost.jsx" />
         <option value="$PROJECT_DIR$/HT6/clock/src/App.js" />
         <option value="$PROJECT_DIR$/HT8/useeffect/src/App.js" />
         <option value="$PROJECT_DIR$/HT8/useeffect/src/Components/Details.jsx" />
         <option value="$PROJECT_DIR$/HT5/cards/src/App.js" />
         <option value="$PROJECT_DIR$/HT8/useeffect/src/Components/Person.jsx" />
-        <option value="$PROJECT_DIR$/HT8/useeffect/src/Components/List.jsx" />
         <option value="$PROJECT_DIR$/HT8/useeffect/src/App.css" />
+        <option value="$PROJECT_DIR$/HT8/useeffect/src/Components/List.jsx" />
+        <option value="$PROJECT_DIR$/HT9/crud/src/Components/CreateNew.jsx" />
+        <option value="$PROJECT_DIR$/HT9/crud/src/Components/Context.jsx" />
+        <option value="$PROJECT_DIR$/HT9/crud/src/Components/PostProvider.jsx" />
+        <option value="$PROJECT_DIR$/HT9/crud/src/App.js" />
+        <option value="$PROJECT_DIR$/HT9/crud/src/Components/EditPost.jsx" />
+        <option value="$PROJECT_DIR$/HT9/crud/src/Components/Card.jsx" />
       </list>
     </option>
   </component>
@@ -166,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,109 +170,28 @@
             <path>
               <item name="React" type="b2602c69:ProjectViewProjectNode" />
               <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT4" type="462c0819:PsiDirectoryNode" />
+              <item name="HT9" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React" type="b2602c69:ProjectViewProjectNode" />
               <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT4" type="462c0819:PsiDirectoryNode" />
-              <item name="trainingcounter" type="462c0819:PsiDirectoryNode" />
+              <item name="HT9" type="462c0819:PsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React" type="b2602c69:ProjectViewProjectNode" />
               <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT4" type="462c0819:PsiDirectoryNode" />
-              <item name="trainingcounter" type="462c0819:PsiDirectoryNode" />
+              <item name="HT9" type="462c0819:PsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React" type="b2602c69:ProjectViewProjectNode" />
               <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT4" type="462c0819:PsiDirectoryNode" />
-              <item name="trainingcounter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT7" type="462c0819:PsiDirectoryNode" />
-              <item name="blockhighlighting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT7" type="462c0819:PsiDirectoryNode" />
-              <item name="blockhighlighting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT7" type="462c0819:PsiDirectoryNode" />
-              <item name="blockhighlighting" type="462c0819:PsiDirectoryNode" />
+              <item name="HT9" type="462c0819:PsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT8" type="462c0819:PsiDirectoryNode" />
-              <item name="useeffect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT8" type="462c0819:PsiDirectoryNode" />
-              <item name="useeffect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT8" type="462c0819:PsiDirectoryNode" />
-              <item name="useeffect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT8" type="462c0819:PsiDirectoryNode" />
-              <item name="usejsonfetch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT8" type="462c0819:PsiDirectoryNode" />
-              <item name="usejsonfetch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT8" type="462c0819:PsiDirectoryNode" />
-              <item name="usejsonfetch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
-              <item name="HT8" type="462c0819:PsiDirectoryNode" />
-              <item name="usejsonfetch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Hook" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React" type="b2602c69:ProjectViewProjectNode" />
@@ -289,7 +202,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,15 +218,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\boris\Desktop\madan\React\HT9\crud\backend" />
-      <recent name="C:\Users\boris\Desktop\madan\React\Ht2\portfolio with filters" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\boris\Desktop\madan\React\HT9\crud\src\Components" />
       <recent name="C:\Users\boris\Desktop\madan\React\HT9\crud\backend" />
       <recent name="C:\Users\boris\Desktop\madan\React\HT7" />
       <recent name="C:\Users\boris\Desktop\madan\React\HT6\crud\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\boris\Desktop\madan\React\HT9\crud\backend" />
+      <recent name="C:\Users\boris\Desktop\madan\React\Ht2\portfolio with filters" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -409,18 +321,21 @@
       <workItem from="1569842160096" duration="8007000" />
       <workItem from="1570029447927" duration="6304000" />
       <workItem from="1570118443711" duration="1146000" />
-      <workItem from="1570205908625" duration="6582000" />
+      <workItem from="1570205908625" duration="7220000" />
+      <workItem from="1570452048229" duration="11986000" />
+      <workItem from="1570535780399" duration="6396000" />
+      <workItem from="1570629141793" duration="5591000" />
+      <workItem from="1570729234083" duration="3884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="440143000" />
+    <option name="totallyTimeSpent" value="468638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984375" visible="true" weight="0.15405117" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984375" visible="true" weight="0.16044776" />
       <window_info id="Structure" order="1" sideWeight="0.5015625" side_tool="true" weight="0.104477614" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -433,7 +348,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49840087" visible="true" weight="0.2967033" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49840087" visible="true" weight="0.30549452" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50159913" side_tool="true" weight="0.2967033" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -445,92 +360,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HT10/editing/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/api/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/api/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/editing/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/ra16-code-master/ra16-code-master/redux/redux/frontend/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/editing/src/reducers/serviceList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/editing/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/editing/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/editing/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/ra16-code-master/ra16-code-master/redux/redux/frontend/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/editing/src/actions/actionTypes.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/HT10/editing/src/Components/ServiceAdd.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -551,16 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT9/crud/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HT10/editing/src/Components/ServiceList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -577,36 +396,6 @@
           <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT9/crud/src/Components/Card.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT9/crud/src/Components/CreateNew.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT9/crud/src/Components/EditPost.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -684,13 +473,6 @@
     <entry file="file://$PROJECT_DIR$/HT8/usejsonfetch/src/Hook/useJsonFetch.jsx">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT7/blockhighlighting/src/Components/DateTime.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" lean-forward="true" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HT7/blockhighlighting/src/Components/VideoList.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -746,54 +528,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Form.jsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Table.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT8/useeffect/src/Components/Details.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HT8/useeffect/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HT8/useeffect/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT9/crud/backend/server.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT7/blockhighlighting/src/Components/DateTime.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="true" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT7/blockhighlighting/src/Components/DateTimePretty.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Form.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-802">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT4/trainingcounter/src/Components/Table.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT9/crud/src/Components/Context.jsx" />
+    <entry file="file://$PROJECT_DIR$/HT9/crud/src/Components/PostProvider.jsx" />
     <entry file="file://$PROJECT_DIR$/HT8/useeffect/src/Components/Person.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HT8/useeffect/src/Components/List.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT8/useeffect/src/App.css">
+    <entry file="file://$PROJECT_DIR$/HT8/useeffect/src/Components/Details.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT9/crud/src/Components/EditPost.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../geekbrains-react-03.08/Nikolay_But/src/components/Content/Content.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../geekbrains-react-03.08/Nikolay_But/src/components/Comment/Comment.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../geekbrains-react-03.08/Nikolay_But/src/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1048">
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../geekbrains-react-03.08/Nikolay_But/src/components/CommentsList/CommentsList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../geekbrains-react-03.08/Nikolay_But/src/components/CommentsForm/CommentsForm.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-283">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT6/crud/src/Component/Cruds.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1581" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT9/crud/src/Components/CreateNew.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret column="21" selection-start-column="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT9/crud/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT9/crud/src/Components/Card.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

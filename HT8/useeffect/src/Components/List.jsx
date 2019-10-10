@@ -34,14 +34,5 @@ export default function List({handleInfo}) {
                     id={o.id}
                 />
             ))}
-<div className="second">
-            {name.map((o, i) => (
-                <div
-                    key={i}
-                    onClick={() => handleChoice(o.id, o.name)}
-                    className={`list-name${o.info ? 'chosen' : ''}`}>
-                    {o.name}
-                </div>))}</div>
-
         </div>)
 };

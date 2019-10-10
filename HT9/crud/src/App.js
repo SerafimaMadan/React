@@ -14,11 +14,13 @@ function App() {
     useEffect(() => {
         axios.get('http://localhost:7777/posts')
             .then(response => setData(response.data));
-    });
+    }, []);
+
 
     return (
-        <div className="App">
-            <Router>
+
+        <Router>
+            <div className="App">
                 <Link to="/posts">
                     <button className="button">
                         Home
@@ -29,23 +31,16 @@ function App() {
                         Create post
                     </button>
                 </Link>
-                <Link to="/posts/:id">
-                    <button className="button">
-                        Edit post
-                    </button>
-                </Link>
+
                 <Switch>
                     <Route
                         path="/posts/new"
-                        exact
                         component={CreateNew}/>
                     <Route
                         path="/posts/:id"
-                        exact
                         component={EditPost}/>
                     <Route
                         path="/posts"
-                        exact
                         component={() => data.map((post, i) =>
                             <Card
                                 post={post}
@@ -53,9 +48,11 @@ function App() {
                             />)
                         }
                     />
+
                 </Switch>
-            </Router>
-        </div>
+
+            </div>
+        </Router>
     );
 }
 
