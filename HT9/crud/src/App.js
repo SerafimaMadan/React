@@ -11,17 +11,16 @@ import EditPost from './Components/EditPost';
 function App() {
     const [data, setData] = useState([]);
 
+
     useEffect(() => {
         axios.get('http://localhost:7777/posts')
             .then(response => setData(response.data));
-    }, []);
-
+    },);
 
     return (
-
         <Router>
             <div className="App">
-                <Link to="/posts">
+                <Link to="/">
                     <button className="button">
                         Home
                     </button>
@@ -36,11 +35,9 @@ function App() {
                     <Route
                         path="/posts/new"
                         component={CreateNew}/>
+
                     <Route
-                        path="/posts/:id"
-                        component={EditPost}/>
-                    <Route
-                        path="/posts"
+                        path="/"
                         component={() => data.map((post, i) =>
                             <Card
                                 post={post}
@@ -48,6 +45,9 @@ function App() {
                             />)
                         }
                     />
+                    <Route
+                        path="/posts/:id([0-9]+)?"
+                        component={EditPost}/>
 
                 </Switch>
 

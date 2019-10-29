@@ -69,3 +69,6 @@ height: 300px;
 .second{
   border: 1px solid red;
 }
+ul> li{
+  list-style: none;
+}

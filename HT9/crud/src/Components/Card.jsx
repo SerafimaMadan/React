@@ -11,14 +11,12 @@ export default function Card({post}) {
                 Author: Serafima
             </div>
             <div>
-               Post created {moment(post.created).startOf('hours').fromNow()}
-
+                Post created {moment(post.created).startOf('hours').fromNow()}
             </div>
             <h1>
                 {post.content}
             </h1>
-            <button className="button muted-button">Edit</button>
-            <button className="button muted-button">Delete</button>
+
         </div>
     );
 }

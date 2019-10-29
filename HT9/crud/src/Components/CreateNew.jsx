@@ -8,9 +8,7 @@ export default function CreateNew() {
 
     const handleChange = (e) => {
         const text = e.target.value;
-        e.preventDefault();
-        setPostText(text);
-
+          setPostText(text);
     };
 
     const handleClick = () => {
