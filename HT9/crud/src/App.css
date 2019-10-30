@@ -69,3 +69,6 @@
   margin: 0 auto;
   width: max-content;
 }
+ul {
+  list-style:none;
+}

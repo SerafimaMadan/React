@@ -3,9 +3,10 @@ import './App.css';
 import {BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
 
 import axios from 'axios';
-import Card from './Components/Card';
 import CreateNew from './Components/CreateNew';
 import EditPost from './Components/EditPost';
+import PostList from "./Components/PostList";
+import PostProvider from "./Components/PostProvider";
 
 
 function App() {
@@ -18,41 +19,36 @@ function App() {
     },);
 
     return (
-        <Router>
-            <div className="App">
-                <Link to="/">
-                    <button className="button">
-                        Home
-                    </button>
-                </Link>
-                <Link to="/posts/new">
-                    <button className="button">
-                        Create post
-                    </button>
-                </Link>
+        <PostProvider>
+            <Router>
+                <div className="App">
+                    <Link to="/posts">
+                        <button className="button">
+                            Home
+                        </button>
+                    </Link>
+                    <Link to="/new">
+                        <button className="button">
+                            Create post
+                        </button>
+                    </Link>
 
-                <Switch>
-                    <Route
-                        path="/posts/new"
-                        component={CreateNew}/>
+                    <Switch>
+                        <Route
+                            path="/new"
+                            component={CreateNew}/>
+                        <Route
+                            path="/posts"
+                            component={PostList}
+                        />
+                        <Route value={data}
+                               path="/posts/:id([0-9]+)?"
+                               component={EditPost}/>
+                    </Switch>
 
-                    <Route
-                        path="/"
-                        component={() => data.map((post, i) =>
-                            <Card
-                                post={post}
-                                key={i}
-                            />)
-                        }
-                    />
-                    <Route
-                        path="/posts/:id([0-9]+)?"
-                        component={EditPost}/>
-
-                </Switch>
-
-            </div>
-        </Router>
+                </div>
+            </Router>
+        </PostProvider>
     );
 }
 

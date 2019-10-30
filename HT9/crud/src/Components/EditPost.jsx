@@ -15,7 +15,7 @@ export default function EditPost({match}) {
 
     return (
         <div className="card">
-            {post}
+            post={post}
             <button   onClick={() => {this.editPost(post)}}  className="button muted-button">Edit</button>
             <button onClick={() => this.deletePost(post.id)} className="button muted-button">Delete</button>
         </div>
