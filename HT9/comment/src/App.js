@@ -1,8 +1,8 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
 
-import axios from 'axios';
+
 import CreateNewPost from './components/CreateNewPost';
 import EditPost from './components/EditPost';
 import PostList from "./components/PostList";
@@ -10,12 +10,6 @@ import PostProvider from "./components/PostProvider";
 
 
 function App() {
-    const [data, setData] = useState([]);
-
-    useEffect(() => {
-        axios.get('http://localhost:7777/posts')
-            .then(response => setData(response.data));
-    }, []);
 
     return (
         <PostProvider>
@@ -40,7 +34,7 @@ function App() {
                             exact={true}
                             component={PostList}
                         />
-                        <Route value={data}
+                        <Route
                                path="/posts/:id([0-9]+)"
                                component={EditPost}/>
                     </Switch>

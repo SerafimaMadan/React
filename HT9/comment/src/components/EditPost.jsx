@@ -6,7 +6,7 @@ export default function EditPost({match}) {
 
     const [post, setPost] = useState([]);
     const id = match.params.id;
-
+ console.table(id);
     useEffect(() => {
         axios.get('http://localhost:7777/posts/' + id)
             .then(response => response.data.find(d => d.id === id))
@@ -15,7 +15,7 @@ export default function EditPost({match}) {
                 console.log(error);
             });
     }, [id]);
-    console.log(post);
+    console.log(match);
     return (
         <div className="card">
             {post}
