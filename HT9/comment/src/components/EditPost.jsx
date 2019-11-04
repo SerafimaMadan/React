@@ -3,25 +3,22 @@ import axios from 'axios';
 
 
 export default function EditPost({match}) {
+
     const [post, setPost] = useState([]);
     const id = match.params.id;
 
     useEffect(() => {
         axios.get('http://localhost:7777/posts/' + id)
-            .then(res => res.data.find(d => d.id === id))
-            .then(p => setPost(p.content))
-            .then(data => {
-                setPost(data)
-            })
+            .then(response => response.data.find(d => d.id === id))
+            .then(data => setPost(data.content))
             .catch(function (error) {
                 console.log(error);
             });
     }, [id]);
-console.log(post);
-
+    console.log(post);
     return (
         <div className="card">
-            {post.content}
+            {post}
             <button onClick={() => {this.editPost(post)}} className="button muted-button">
                 Edit
             </button>
