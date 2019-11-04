@@ -16,11 +16,9 @@ export default function List({handleInfo}) {
                 console.log(error);
             });
     }, []);
-
     function handleChoice(id, name) {
         setChoice(id);
         handleInfo(id, name.name);
-
     }
 
     return (

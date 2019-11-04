@@ -15,8 +15,6 @@ class App extends Component {
             items: [],
         }
     };
-
-
     handleFormSubmit = (e) => {
         e.preventDefault();
         this.setState(prevState => {
@@ -37,8 +35,6 @@ class App extends Component {
                 }
         });
     };
-
-
     handleInputChange = (e) => {
         const {name, value} = e.target;
 
@@ -57,8 +53,6 @@ class App extends Component {
             }
         })
     };
-
-
     render() {
 
         return (

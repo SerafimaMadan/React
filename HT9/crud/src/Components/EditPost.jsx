@@ -4,7 +4,7 @@ import axios from 'axios';
 
 export default function EditPost({match}) {
      const [post, setPost] = useState('');
-    const id = match.params.id;
+    const id = this.props.match.params.id;
 
     useEffect(() => {
         axios.get('http://localhost:7777/posts/'+id)

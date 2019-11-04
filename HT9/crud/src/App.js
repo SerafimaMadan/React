@@ -42,7 +42,7 @@ function App() {
                             component={PostList}
                         />
                         <Route value={data}
-                               path="/posts/:id([0-9]+)?"
+                               path="/posts/:id([0-9]+)"
                                component={EditPost}/>
                     </Switch>
 
