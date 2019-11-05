@@ -12,7 +12,7 @@ import PostProvider from "./components/PostProvider";
 function App() {
 
     return (
-        <PostProvider>
+        <PostProvider >
             <Router>
                 <div className="App">
                     <Link to="/posts">
@@ -32,10 +32,9 @@ function App() {
                         <Route
                             path="/posts"
                             exact={true}
-                            component={PostList}
-                        />
+                            component={PostList}/>
                         <Route
-                               path="/posts/:id([0-9]+)"
+                               path="/posts/:id([0-9]+)?"
                                component={EditPost}/>
                     </Switch>
 

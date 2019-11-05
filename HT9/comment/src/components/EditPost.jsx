@@ -1,25 +1,28 @@
-import React, {useState, useEffect} from 'react';
-import axios from 'axios';
+import React, {useContext} from 'react';
 
+import PostContext from "../context/PostContext";
+
+
+function findById(posts, id) {
+    return posts.find(o => o.id === id);
+}
+
+function findByContent(posts, content) {
+    return posts.find(o => o.content === content);
+}
 
 export default function EditPost({match}) {
+    const posts = useContext(PostContext);
 
-    const [post, setPost] = useState([]);
-    const id = match.params.id;
- console.table(id);
-    useEffect(() => {
-        axios.get('http://localhost:7777/posts/' + id)
-            .then(response => response.data.find(d => d.id === id))
-            .then(data => setPost(data.content))
-            .catch(function (error) {
-                console.log(error);
-            });
-    }, [id]);
-    console.log(match);
+    const post = match.params.id ?
+        findById(posts, Number(match.params.id)) :
+        findByContent(posts, (match.params.content));
+alert(match.params.content);
     return (
         <div className="card">
-            {post}
-            <button onClick={() => {this.editPost(post)}} className="button muted-button">
+            {match.params.id}
+            {post ? post.content : ''}
+            <button onClick={() => this.editPost(post)} className="button muted-button">
                 Edit
             </button>
             <button onClick={() => this.deletePost(post.id)} className="button muted-button">
