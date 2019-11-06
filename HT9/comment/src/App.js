@@ -34,7 +34,7 @@ function App() {
                             exact={true}
                             component={PostList}/>
                         <Route
-                               path="/posts/:id([0-9]+)?"
+                               path="/posts/:id([0-9]+)"
                                component={EditPost}/>
                     </Switch>
 
