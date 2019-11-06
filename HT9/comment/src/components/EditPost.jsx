@@ -1,7 +1,5 @@
 import React, {useContext} from 'react';
-
 import PostContext from "../context/PostContext";
-
 
 function findById(posts, id) {
     return posts.find(o => o.id === id);
@@ -17,9 +15,10 @@ export default function EditPost({match}) {
     const post = match.params.id ?
         findById(posts, Number(match.params.id)) :
         findByContent(posts, (match.params.content));
-alert(match.params.content);
+
     return (
         <div className="card">
+            {console.log(post)}
             {match.params.id}
             {post ? post.content : ''}
             <button onClick={() => this.editPost(post)} className="button muted-button">
