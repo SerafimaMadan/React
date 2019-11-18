@@ -14,7 +14,8 @@ export default function serviceListReducer(state = initialState, action) {
     case REMOVE_SERVICE:
       const {id} = action.payload;
       return state.filter(service => service.id !== id);
-    default:
+
+       default:
       return state;
   }
 }

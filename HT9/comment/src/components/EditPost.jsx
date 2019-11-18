@@ -16,15 +16,22 @@ export default function EditPost({match}) {
         findById(posts, Number(match.params.id)) :
         findByContent(posts, (match.params.content));
 
+    const handleDeletePost = id => {
+        let answer = window.confirm('Are you sure?')
+
+        if (answer) {
+            this.deletePost(id)
+        }
+    };
     return (
         <div className="card">
             {console.log(post)}
             {match.params.id}
             {post ? post.content : ''}
-            <button onClick={() => this.editPost(post)} className="button muted-button">
+            <button onClick={() => this.editPost(post.content)} className="button muted-button">
                 Edit
             </button>
-            <button onClick={() => this.deletePost(post.id)} className="button muted-button">
+            <button onClick={() => handleDeletePost(post.id)} className="button muted-button">
                 Delete
             </button>
         </div>

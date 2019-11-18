@@ -5,7 +5,7 @@ import {changeServiceField, addService} from '../actions/actionCreators';
 
 class ServiceAddClassBased extends Component {
     handleChange = evt => {
-        const {name, value} = evt.target;
+        const { name, value } = evt.target;
         this.props.onChange(name, value);
     };
 
@@ -16,12 +16,12 @@ class ServiceAddClassBased extends Component {
     };
 
     render() {
-        const {item} = this.props;
+        const { item } = this.props;
 
         return (
             <form onSubmit={this.handleSubmit}>
-                <input name='name' onChange={this.handleChange} value={item.name}/>
-                <input name='price' onChange={this.handleChange} value={item.price}/>
+                <input name='name' onChange={this.handleChange} value={item.name} />
+                <input name='price' onChange={this.handleChange} value={item.price} />
                 <button type='submit'>Save</button>
             </form>
         );
