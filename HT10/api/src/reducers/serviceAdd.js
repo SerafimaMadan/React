@@ -3,10 +3,13 @@ import {
     ADD_SERVICE_REQUEST,
     ADD_SERVICE_FAILURE,
     ADD_SERVICE_SUCCESS,
+    CURRENT_ID,
 } from '../actions/actionTypes'
 
+
 const initialState = {
-    item: { name: '', price: '', },
+    item: { name: '', price: '', content: '', },
+    currentId: null,
     loading: false,
     error: null,
 };
@@ -37,6 +40,12 @@ export default function serviceAddReducer(state = initialState, action) {
                     ...item,
                     [name]: value,
                 }
+            };
+        case CURRENT_ID:
+            const {id}  = action.payload;
+            return  {
+                ...state,
+                currentId: id
             };
         default:
             return state;

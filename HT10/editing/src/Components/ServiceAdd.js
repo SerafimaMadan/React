@@ -1,27 +1,26 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import {useSelector, useDispatch} from 'react-redux';
-import {changeServiceField, addService, updateService} from '../actions/actionCreators';
+import {changeServiceField, addService, cancelService} from '../actions/actionCreators';
 
 function ServiceAdd() {
     const item = useSelector(state => state.serviceAdd);
     const dispatch = useDispatch();
 
-    const handleChange = evt => {
+    const handleChange = useCallback(evt => {
         const {name, value} = evt.target;
         dispatch(changeServiceField(name, value));
-    };
+    }, []);
 
-    const handleSubmit = evt => {
+    const handleSubmit = useCallback(evt => {
         evt.preventDefault();
-        dispatch(addService(item.name, item.price));
-          };
+        dispatch(addService(item.id, item.name, item.price));
+    }, [item.id, item.name, item.price]);
 
-    const handleCancel = (item) => {
-        const {name, price} = item.target;
-        dispatch(updateService(name, price))
+    const handleCancel = useCallback(evt => {
+        evt.preventDefault();
+        dispatch(cancelService());
+    }, []);
 
-
-    };
     return (
         <form onSubmit={handleSubmit}>
             <input name='name' type="text" onChange={handleChange} value={item.name}/>

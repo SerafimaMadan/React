@@ -3,8 +3,7 @@ import {
     REMOVE_SERVICE,
     CHANGE_SERVICE_FIELD,
     EDIT_SERVICE,
-    UPDATE_SERVICE,
-    FETCH_SERVICE
+    CANCEL_SERVICE
 } from './actionTypes';
 
 export function addService(name, price) {
@@ -26,14 +25,6 @@ export function editService(item) {
     };
 }
 
-export function updateService(item) {
-    return {type: UPDATE_SERVICE, payload: {item}};
+export function cancelService() {
+    return {type: CANCEL_SERVICE};
 }
-
-export function fetchService(id) {
-    return {
-        type: FETCH_SERVICE,
-        payload: {id}
-    };
-}
-

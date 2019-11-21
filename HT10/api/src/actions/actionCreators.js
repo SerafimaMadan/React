@@ -7,6 +7,7 @@ import {
     ADD_SERVICE_FAILURE,
     ADD_SERVICE_SUCCESS,
     REMOVE_SERVICE,
+    CURRENT_ID,
 } from './actionTypes';
 
 export const fetchServicesRequest =() => ({
@@ -27,13 +28,16 @@ export const fetchServicesSuccess = items => ({
     },
 });
 
+
+
+
 export const addServiceRequest = (name, price) => ({
     type: ADD_SERVICE_REQUEST,
     payload: {
         name,
         price,
     },
-})
+});
 
 export const addServiceFailure = error => ({
     type: ADD_SERVICE_FAILURE,
@@ -100,3 +104,26 @@ export const addService = () => async (dispatch, getState) => {
 
     dispatch(fetchServices());
 };
+export const editService = () => async (dispatch, getState) => {
+    const { serviceAdd: { currentId } } = getState();
+        try {
+        const response = await fetch(`${process.env.REACT_APP_API_URL}/${currentId}`);
+
+        if (!response.ok) {
+            throw new Error(response.statusText);
+        }
+        const data = await response.json();
+        dispatch(changeServiceField('name', data.name));
+        dispatch(changeServiceField('price', data.price));
+        dispatch(changeServiceField('content', data.content));
+    } catch (error) {
+        dispatch(fetchServicesFailure(error.message));
+    }
+};
+
+export const currentId = id => ({
+    type: CURRENT_ID,
+    payload: {
+        id,
+    },
+});

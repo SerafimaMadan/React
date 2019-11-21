@@ -3,10 +3,10 @@ import React from 'react';
 
 export  default function Listing(props) {
 
-   //пропишем условие для ограничения длинны предложения с помощью метода slice
+   //условие для ограничения длинны предложения с помощью метода slice
     const itemList = props.items.map(item => {
         const title = item.title > 50 ? `${item.title.slice(0, 50)}...` : item.title;
-//пропишем условия для смена валюты при необходимости
+//условия для смена валюты при необходимости
         const getPrice = (price, code) => {
             if (code === 'USD') {
                 return `$${price}`;
@@ -16,7 +16,7 @@ export  default function Listing(props) {
             }
             return `GBP${price} `;
         };
-//прописываем условия для прописывания остатка товаров используя класс level-* ниже
+//условия для прописывания остатка товаров используя класс level-* ниже
         const otherResult = (item.quantity <= 20)? 'medium' : 'high';
         const amount = (item.quantity <= 10) ? 'low' : otherResult;
        

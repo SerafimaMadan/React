@@ -1,4 +1,10 @@
-import {ADD_SERVICE, CHANGE_SERVICE_FIELD, EDIT_SERVICE, FETCH_SERVICE, UPDATE_SERVICE} from '../actions/actionTypes'
+import {
+    ADD_SERVICE,
+    CANCEL_SERVICE,
+    CHANGE_SERVICE_FIELD,
+    EDIT_SERVICE,
+    REMOVE_SERVICE}
+    from '../actions/actionTypes'
 
 export const initialState = {
     id: '',
@@ -17,16 +23,14 @@ export default function serviceAddReducer(state = initialState, action) {
         case EDIT_SERVICE: {
             return {...action.payload.item}
         }
-        case UPDATE_SERVICE: {
+        case CANCEL_SERVICE: {
             return {...initialState}
         }
-        case FETCH_SERVICE: {
-            if (action.type === "id") {
-                return {...state, id: action.payload};
-            } else {
-                return state;
-            }
+        case REMOVE_SERVICE: {
+            const {id} = action.payload;
+            return state.id === id ? {...initialState} : state;
         }
+
         default:
             return state;
     }

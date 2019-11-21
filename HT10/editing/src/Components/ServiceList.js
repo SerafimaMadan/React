@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 import {useSelector, useDispatch} from 'react-redux';
 import {removeService, editService} from '../actions/actionCreators';
 
@@ -6,12 +6,12 @@ function ServiceList() {
     const items = useSelector(state => state.serviceList);
     const dispatch = useDispatch();
 
-    const handleRemove = id => {
+    const handleRemove = useCallback( id => {
         dispatch(removeService(id));
-    };
-    const handleEdit = (item) => {
+    }, []);
+    const handleEdit = useCallback( (item) => {
         dispatch(editService(item));
-    };
+    }, []);
     return (
         <ul>
             {items.map(o => (

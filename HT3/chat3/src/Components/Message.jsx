@@ -1,6 +1,6 @@
 import React from 'react';
 
-//создаю компонент без состояния только для отражения формы для каждого li сообщения
+//компонент без состояния только для отражения формы для каждого li сообщения
 export default function Message({from, message}) {
     return (
         <li >
