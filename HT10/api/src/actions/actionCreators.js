@@ -7,6 +7,7 @@ import {
     ADD_SERVICE_FAILURE,
     ADD_SERVICE_SUCCESS,
     REMOVE_SERVICE,
+
     CURRENT_ID,
 } from './actionTypes';
 
@@ -27,9 +28,6 @@ export const fetchServicesSuccess = items => ({
         items,
     },
 });
-
-
-
 
 export const addServiceRequest = (name, price) => ({
     type: ADD_SERVICE_REQUEST,

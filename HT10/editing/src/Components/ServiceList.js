@@ -8,10 +8,10 @@ function ServiceList() {
 
     const handleRemove = useCallback( id => {
         dispatch(removeService(id));
-    }, []);
+    }, [dispatch]);
     const handleEdit = useCallback( (item) => {
         dispatch(editService(item));
-    }, []);
+    }, [dispatch]);
     return (
         <ul>
             {items.map(o => (

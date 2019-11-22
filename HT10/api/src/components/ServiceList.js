@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import {useSelector, useDispatch} from 'react-redux';
 import {removeService, fetchServices, currentId, editService} from '../actions/actionCreators';
 import {Route, Link} from 'react-router-dom';
+import SpinnerFor from "./SpinerFor";
 
 function ServiceList(props) {
     const {items, loading, error} = useSelector(state => state.serviceList);
@@ -22,7 +23,7 @@ function ServiceList(props) {
     };
 
     if (loading) {
-        return <p>Loading...</p>;
+        return <p><SpinnerFor/></p>;
     }
 
     if (error) {
@@ -35,7 +36,7 @@ function ServiceList(props) {
                 {items.map(o => (
                     <li key={o.id}>
                         {o.name} {o.price}
-                        <Link className="link" exact to={`/services/${o.id}`}
+                        <Link className="link"  to={`/services/${o.id}`}
                               onClick={() => editRemove(o.id)}>&#9998;
                         </Link>
                         <button onClick={() => handleRemove(o.id)}>✕</button>

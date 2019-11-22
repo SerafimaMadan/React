@@ -9,7 +9,7 @@ function ServiceAdd() {
     const handleChange = useCallback(evt => {
         const {name, value} = evt.target;
         dispatch(changeServiceField(name, value));
-    }, []);
+    }, [dispatch]);
 
     const handleSubmit = useCallback(evt => {
         evt.preventDefault();
@@ -19,7 +19,7 @@ function ServiceAdd() {
     const handleCancel = useCallback(evt => {
         evt.preventDefault();
         dispatch(cancelService());
-    }, []);
+    }, [dispatch]);
 
     return (
         <form onSubmit={handleSubmit}>

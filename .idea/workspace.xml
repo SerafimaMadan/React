@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2457bbf-4c5b-4d43-a3fa-2a80fcd5f1ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HT10/api/src/components/Page404.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HT10/api/src/components/SpinerFor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT10/editing/src/actions/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT10/editing/src/actions/actionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT10/api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/HT10/api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT10/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HT10/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT10/api/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT10/api/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT10/api/src/actions/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT10/api/src/actions/actionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT10/api/src/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT10/api/src/actions/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT10/api/src/components/ServiceAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT10/api/src/components/ServiceAdd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT10/api/src/components/ServiceList.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT10/api/src/components/ServiceList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT10/editing/src/Components/ServiceAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT10/editing/src/Components/ServiceAdd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT10/editing/src/Components/ServiceList.js" beforeDir="false" afterPath="$PROJECT_DIR$/HT10/editing/src/Components/ServiceList.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -29,13 +39,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HT10/editing/src/actions/actionCreators.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HT10/api/src/actions/actionCreators.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="1663">
+              <caret line="127" selection-start-line="127" selection-end-line="127" />
               <folding>
-                <element signature="e#0#132#0" expanded="true" />
+                <element signature="e#0#253#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HT10/api/src/components/ServiceAdd.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HT10/api/src/reducers/serviceList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="677">
+              <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#144#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HT10/api/src/components/ServiceList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HT10/api/src/components/SpinerFor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HT10/api/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HT10/api/src/components/Page404.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,10 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HT9/comment/backend/package-lock.json" />
-        <option value="$PROJECT_DIR$/HT9/comment/backend/server.jsx" />
-        <option value="$PROJECT_DIR$/HT9/crud/src/App.js" />
-        <option value="$PROJECT_DIR$/HT8/useeffect/src/Components/List.jsx" />
         <option value="$PROJECT_DIR$/HT9/crud/backend/.foreverignore" />
         <option value="$PROJECT_DIR$/HT9/comment/backend/.foreverignore" />
         <option value="$PROJECT_DIR$/HT9/comment/src/components/Card.jsx" />
@@ -86,20 +164,24 @@
         <option value="$PROJECT_DIR$/HT10/editing/src/store/index.js" />
         <option value="$PROJECT_DIR$/HT10/api/src/reducers/serviceAdd.js" />
         <option value="$PROJECT_DIR$/HT10/api/src/App.css" />
-        <option value="$PROJECT_DIR$/HT10/api/src/components/ServiceList.js" />
-        <option value="$PROJECT_DIR$/HT10/api/src/components/ServiceAdd.js" />
-        <option value="$PROJECT_DIR$/HT10/api/src/App.js" />
         <option value="$PROJECT_DIR$/HT10/editing/src/App.js" />
         <option value="$PROJECT_DIR$/HT10/editing/src/reducers/serviceEdit.js" />
         <option value="$PROJECT_DIR$/HT10/editing/src/reducers/editing.js" />
-        <option value="$PROJECT_DIR$/HT10/editing/src/Components/ServiceAdd.js" />
         <option value="$PROJECT_DIR$/HT10/editing/src/actions/actionTypes.js" />
         <option value="$PROJECT_DIR$/HT10/editing/src/reducers/serviceAdd.js" />
-        <option value="$PROJECT_DIR$/HT10/editing/src/Components/ServiceList.js" />
         <option value="$PROJECT_DIR$/HT10/editing/src/reducers/serviceList.js" />
+        <option value="$PROJECT_DIR$/HT10/editing/src/actions/actionCreators.js" />
+        <option value="$PROJECT_DIR$/HT10/editing/src/Components/ServiceList.js" />
+        <option value="$PROJECT_DIR$/HT10/editing/src/Components/ServiceAdd.js" />
+        <option value="$PROJECT_DIR$/HT10/api/src/actions/Page404.js" />
         <option value="$PROJECT_DIR$/HT10/api/src/actions/actionTypes.js" />
         <option value="$PROJECT_DIR$/HT10/api/src/actions/actionCreators.js" />
-        <option value="$PROJECT_DIR$/HT10/editing/src/actions/actionCreators.js" />
+        <option value="$PROJECT_DIR$/HT10/api/src/components/Spiner.js" />
+        <option value="$PROJECT_DIR$/HT10/api/src/components/Page404.js" />
+        <option value="$PROJECT_DIR$/HT10/api/src/components/ServiceAdd.js" />
+        <option value="$PROJECT_DIR$/HT10/api/src/components/SpinerFor.js" />
+        <option value="$PROJECT_DIR$/HT10/api/src/components/ServiceList.js" />
+        <option value="$PROJECT_DIR$/HT10/api/src/App.js" />
       </list>
     </option>
   </component>
@@ -137,22 +219,38 @@
               <item name="React" type="b2602c69:ProjectViewProjectNode" />
               <item name="React" type="462c0819:PsiDirectoryNode" />
               <item name="HT10" type="462c0819:PsiDirectoryNode" />
-              <item name="editing" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React" type="b2602c69:ProjectViewProjectNode" />
               <item name="React" type="462c0819:PsiDirectoryNode" />
               <item name="HT10" type="462c0819:PsiDirectoryNode" />
-              <item name="editing" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React" type="b2602c69:ProjectViewProjectNode" />
               <item name="React" type="462c0819:PsiDirectoryNode" />
               <item name="HT10" type="462c0819:PsiDirectoryNode" />
-              <item name="editing" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React" type="462c0819:PsiDirectoryNode" />
+              <item name="HT10" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React" type="462c0819:PsiDirectoryNode" />
+              <item name="HT10" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,7 +262,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ra-redux-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hw102-api-master" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -174,17 +272,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\boris\Desktop\madan\React\HT10\api\src" />
-      <recent name="C:\Users\boris\Desktop\madan\React\HT9\crud\src\Components" />
-      <recent name="C:\Users\boris\Desktop\madan\React\HT9\crud\backend" />
-      <recent name="C:\Users\boris\Desktop\madan\React\HT7" />
-      <recent name="C:\Users\boris\Desktop\madan\React\HT6\crud\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\boris\Desktop\madan\React\HT9\comment\backend" />
       <recent name="C:\Users\boris\Desktop\madan\React\HT9\crud\backend" />
       <recent name="C:\Users\boris\Desktop\madan\React\Ht2\portfolio with filters" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\boris\Desktop\madan\React\HT10\api\src\components" />
+      <recent name="C:\Users\boris\Desktop\madan\React\HT10\api\src" />
+      <recent name="C:\Users\boris\Desktop\madan\React\HT9\crud\src\Components" />
+      <recent name="C:\Users\boris\Desktop\madan\React\HT9\crud\backend" />
+      <recent name="C:\Users\boris\Desktop\madan\React\HT7" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,16 +404,15 @@
       <workItem from="1574255011474" duration="16613000" />
       <workItem from="1574332306146" duration="8356000" />
       <workItem from="1574364568185" duration="15256000" />
-      <workItem from="1574414817744" duration="887000" />
+      <workItem from="1574414817744" duration="10803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="687075000" />
+    <option name="totallyTimeSpent" value="696991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984375" visible="true" weight="0.20202559" />
       <window_info id="Structure" order="1" sideWeight="0.5015625" side_tool="true" weight="0.104477614" />
@@ -342,40 +439,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HT3/chat3/src/Components/MessageHistory.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT3/chat3/src/Components/Response.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT3/chat3/src/Components/Typing.jsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../react-06.09-master/ViktorIlyin/src/reducers/articles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/api/src/components/ServiceListClassBased.js" />
-    <entry file="file://$PROJECT_DIR$/HT10/api/src/components/ServiceAddClassBased.js" />
-    <entry file="file://$PROJECT_DIR$/HT9/comment/src/context/PostContext.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/api/src/context/ServiceContext.js" />
     <entry file="file://$PROJECT_DIR$/HT9/comment/src/components/Card.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -579,26 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/api/src/reducers/serviceAdd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/api/src/reducers/serviceList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HT10/api/src/components/PostProvider.js" />
     <entry file="file://$PROJECT_DIR$/HT10/api/src/store/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -606,43 +649,6 @@
           <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding>
             <element signature="e#0#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/api/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/api/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/api/src/components/ServiceList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/api/src/components/ServiceAdd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -679,40 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/editing/src/Components/ServiceList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/editing/src/Components/ServiceAdd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/api/src/actions/actionCreators.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#0#253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HT10/api/src/actions/actionTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HT10/editing/src/actions/actionTypes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -726,6 +698,162 @@
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#0#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT10/editing/src/Components/ServiceList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT10/editing/src/Components/ServiceAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT10/api/src/actions/actionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Body.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/Broadcast.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/GrammarHelper.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/SearchBar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT5/decomposition/src/Components/News.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT10/api/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT10/api/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT10/api/src/actions/actionCreators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1663">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+          <folding>
+            <element signature="e#0#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT10/api/src/components/SpinerFor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT10/api/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT10/api/src/components/Page404.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT10/api/src/reducers/serviceList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT10/api/src/components/ServiceList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT10/api/src/reducers/serviceAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HT10/api/src/components/ServiceAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
