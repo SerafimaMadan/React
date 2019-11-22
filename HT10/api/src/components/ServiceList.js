@@ -23,7 +23,7 @@ function ServiceList(props) {
     };
 
     if (loading) {
-        return <p><SpinnerFor/></p>;
+        return <SpinnerFor/>;
     }
 
     if (error) {
